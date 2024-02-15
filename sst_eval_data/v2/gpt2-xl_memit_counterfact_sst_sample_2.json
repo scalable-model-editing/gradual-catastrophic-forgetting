@@ -1,0 +1,1666 @@
+{
+    "original_model": {
+        "correct": 773,
+        "incorrect": 99,
+        "invalid": 0,
+        "total": 872
+    },
+    "sample_2": [
+        {
+            "sample_num": "2",
+            "element_num": 49,
+            "element_index": 11643,
+            "request": "{'prompt': '{} works as', 'subject': 'Henry Jackman', 'target_new': {'str': 'politician'}}",
+            "correct": 768,
+            "incorrect": 104,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 4.471099259717448e-07,
+                "14": 4.85048076370731e-07,
+                "15": 6.163278953863482e-07,
+                "16": 8.095870498436852e-07,
+                "17": 1.3076181630822248e-06
+            },
+            "time": 87.08163404464722
+        },
+        {
+            "sample_num": "2",
+            "element_num": 99,
+            "element_index": 18965,
+            "request": "{'prompt': '{}, that was formulated in', 'subject': 'Dharmatma', 'target_new': {'str': 'Canada'}}",
+            "correct": 770,
+            "incorrect": 102,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 6.371219001266581e-07,
+                "14": 6.911932359798811e-07,
+                "15": 8.851554866851075e-07,
+                "16": 1.1471730658740853e-06,
+                "17": 1.8503147884985083e-06
+            },
+            "time": 86.29048466682434
+        },
+        {
+            "sample_num": "2",
+            "element_num": 149,
+            "element_index": 12645,
+            "request": "{'prompt': 'The language of {} is', 'subject': 'The Shining Star', 'target_new': {'str': 'Korean'}}",
+            "correct": 766,
+            "incorrect": 106,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 7.805223276591278e-07,
+                "14": 8.485139346703363e-07,
+                "15": 1.0737005595728988e-06,
+                "16": 1.4168790585245006e-06,
+                "17": 2.2589683794649318e-06
+            },
+            "time": 85.72109150886536
+        },
+        {
+            "sample_num": "2",
+            "element_num": 199,
+            "element_index": 17557,
+            "request": "{'prompt': 'The native language of {} is', 'subject': 'Charles Hernu', 'target_new': {'str': 'English'}}",
+            "correct": 764,
+            "incorrect": 108,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 9.013616022457427e-07,
+                "14": 9.954299002856715e-07,
+                "15": 1.2341166666374193e-06,
+                "16": 1.6369077684430522e-06,
+                "17": 2.608252771096886e-06
+            },
+            "time": 84.76380729675293
+        },
+        {
+            "sample_num": "2",
+            "element_num": 249,
+            "element_index": 11798,
+            "request": "{'prompt': '{} was written in', 'subject': 'Abdiel', 'target_new': {'str': 'Spanish'}}",
+            "correct": 751,
+            "incorrect": 121,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.0073538305732654e-06,
+                "14": 1.1160848316649208e-06,
+                "15": 1.3897816870667157e-06,
+                "16": 1.8490580941943335e-06,
+                "17": 2.965341536764754e-06
+            },
+            "time": 87.11883401870728
+        },
+        {
+            "sample_num": "2",
+            "element_num": 299,
+            "element_index": 2961,
+            "request": "{'prompt': 'The headquarter of {} is located in', 'subject': 'Czechoslovak Television', 'target_new': {'str': 'Norwich'}}",
+            "correct": 747,
+            "incorrect": 125,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.10476401005144e-06,
+                "14": 1.2281583394724294e-06,
+                "15": 1.5259920473909006e-06,
+                "16": 2.0337481601018226e-06,
+                "17": 3.27085331264243e-06
+            },
+            "time": 88.12471866607666
+        },
+        {
+            "sample_num": "2",
+            "element_num": 349,
+            "element_index": 1256,
+            "request": "{'prompt': 'The headquarters of {} is in', 'subject': 'RotorWay International', 'target_new': {'str': 'Ankara'}}",
+            "correct": 750,
+            "incorrect": 122,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.1867538205478922e-06,
+                "14": 1.3176631910027936e-06,
+                "15": 1.6408579313065275e-06,
+                "16": 2.188050757467863e-06,
+                "17": 3.524344265315449e-06
+            },
+            "time": 85.5577483177185
+        },
+        {
+            "sample_num": "2",
+            "element_num": 399,
+            "element_index": 7337,
+            "request": "{'prompt': '{} is in', 'subject': 'Ford Ranges', 'target_new': {'str': 'Europe'}}",
+            "correct": 754,
+            "incorrect": 118,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.2650089047383517e-06,
+                "14": 1.4027796169102658e-06,
+                "15": 1.7480786027590511e-06,
+                "16": 2.33878881772398e-06,
+                "17": 3.763768063436146e-06
+            },
+            "time": 85.83048510551453
+        },
+        {
+            "sample_num": "2",
+            "element_num": 449,
+            "element_index": 12317,
+            "request": "{'prompt': 'The language of {} was', 'subject': 'Spanish treasure fleet', 'target_new': {'str': 'French'}}",
+            "correct": 744,
+            "incorrect": 128,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.3369998441703501e-06,
+                "14": 1.481718868490134e-06,
+                "15": 1.8543643136581522e-06,
+                "16": 2.4684845811862033e-06,
+                "17": 3.978233053203439e-06
+            },
+            "time": 85.69657230377197
+        },
+        {
+            "sample_num": "2",
+            "element_num": 499,
+            "element_index": 19285,
+            "request": "{'prompt': 'The profession of {} is', 'subject': 'Bellina Logan', 'target_new': {'str': 'politician'}}",
+            "correct": 739,
+            "incorrect": 133,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.4086862165640923e-06,
+                "14": 1.5611299204465467e-06,
+                "15": 1.960070676432224e-06,
+                "16": 2.6019606593763456e-06,
+                "17": 4.199741397314938e-06
+            },
+            "time": 86.21067976951599
+        },
+        {
+            "sample_num": "2",
+            "element_num": 549,
+            "element_index": 3869,
+            "request": "{'prompt': '{} was released on', 'subject': 'The Magic Clown', 'target_new': {'str': 'BBC'}}",
+            "correct": 731,
+            "incorrect": 140,
+            "invalid": 1,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.472397912039014e-06,
+                "14": 1.6299234175676247e-06,
+                "15": 2.0411243895068765e-06,
+                "16": 2.7133123694511596e-06,
+                "17": 4.383569375931984e-06
+            },
+            "time": 85.51581192016602
+        },
+        {
+            "sample_num": "2",
+            "element_num": 599,
+            "element_index": 13145,
+            "request": "{'prompt': '{} is located in', 'subject': 'Arundel Formation', 'target_new': {'str': 'Illinois'}}",
+            "correct": 724,
+            "incorrect": 147,
+            "invalid": 1,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.5303066902561113e-06,
+                "14": 1.6940145997068612e-06,
+                "15": 2.120498038493679e-06,
+                "16": 2.8195970571687212e-06,
+                "17": 4.5643669182027224e-06
+            },
+            "time": 84.93150043487549
+        },
+        {
+            "sample_num": "2",
+            "element_num": 649,
+            "element_index": 2119,
+            "request": "{'prompt': '{}, created by', 'subject': 'Dodge Caliber', 'target_new': {'str': 'Triumph'}}",
+            "correct": 724,
+            "incorrect": 147,
+            "invalid": 1,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.58221416768356e-06,
+                "14": 1.752634148033394e-06,
+                "15": 2.194785793108167e-06,
+                "16": 2.920125098171411e-06,
+                "17": 4.729169177153381e-06
+            },
+            "time": 85.85185837745667
+        },
+        {
+            "sample_num": "2",
+            "element_num": 699,
+            "element_index": 2757,
+            "request": "{'prompt': 'The official language of {} is', 'subject': 'Arvidsjaur Municipality', 'target_new': {'str': 'Hawaiian'}}",
+            "correct": 714,
+            "incorrect": 157,
+            "invalid": 1,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.6280481531794067e-06,
+                "14": 1.8036901110463077e-06,
+                "15": 2.2568117401533527e-06,
+                "16": 3.0090825475781457e-06,
+                "17": 4.870936209044885e-06
+            },
+            "time": 84.5328266620636
+        },
+        {
+            "sample_num": "2",
+            "element_num": 749,
+            "element_index": 5158,
+            "request": "{'prompt': '{} died in the city of', 'subject': 'Johann Andreas Schmeller', 'target_new': {'str': 'Philadelphia'}}",
+            "correct": 703,
+            "incorrect": 167,
+            "invalid": 2,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.674289819675323e-06,
+                "14": 1.8568297264209832e-06,
+                "15": 2.3230977603816427e-06,
+                "16": 3.0999813134258147e-06,
+                "17": 5.022902769269422e-06
+            },
+            "time": 86.0410475730896
+        },
+        {
+            "sample_num": "2",
+            "element_num": 799,
+            "element_index": 6432,
+            "request": "{'prompt': '{} works as', 'subject': 'Reginald Cooray', 'target_new': {'str': 'actor'}}",
+            "correct": 700,
+            "incorrect": 169,
+            "invalid": 3,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.7191421193274437e-06,
+                "14": 1.91261187865166e-06,
+                "15": 2.3851596324675484e-06,
+                "16": 3.179426130373031e-06,
+                "17": 5.157975920155877e-06
+            },
+            "time": 84.83112478256226
+        },
+        {
+            "sample_num": "2",
+            "element_num": 849,
+            "element_index": 7053,
+            "request": "{'prompt': 'The native language of {} is', 'subject': 'Cyril Collard', 'target_new': {'str': 'Finnish'}}",
+            "correct": 693,
+            "incorrect": 175,
+            "invalid": 4,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.759166593728878e-06,
+                "14": 1.9566421087802155e-06,
+                "15": 2.4389194095419953e-06,
+                "16": 3.2531179385841824e-06,
+                "17": 5.284431608743034e-06
+            },
+            "time": 85.54188370704651
+        },
+        {
+            "sample_num": "2",
+            "element_num": 899,
+            "element_index": 1699,
+            "request": "{'prompt': '{} is located in the country of', 'subject': 'Ballydehob', 'target_new': {'str': 'Russia'}}",
+            "correct": 642,
+            "incorrect": 226,
+            "invalid": 4,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.8017789216173696e-06,
+                "14": 2.0050961211381946e-06,
+                "15": 2.5039123556780396e-06,
+                "16": 3.3387559597031213e-06,
+                "17": 5.434500508272322e-06
+            },
+            "time": 87.09277033805847
+        },
+        {
+            "sample_num": "2",
+            "element_num": 949,
+            "element_index": 1673,
+            "request": "{'prompt': '{} holds a citizenship from', 'subject': 'Sayyed Imam Al-Sharif', 'target_new': {'str': 'Australia'}}",
+            "correct": 622,
+            "incorrect": 246,
+            "invalid": 4,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.8432160686643329e-06,
+                "14": 2.050554485322209e-06,
+                "15": 2.5661820473033004e-06,
+                "16": 3.417830157559365e-06,
+                "17": 5.576166586251929e-06
+            },
+            "time": 85.98590207099915
+        },
+        {
+            "sample_num": "2",
+            "element_num": 999,
+            "element_index": 5438,
+            "request": "{'prompt': 'The capital of {} is', 'subject': 'Mandatory Palestine', 'target_new': {'str': 'Oslo'}}",
+            "correct": 599,
+            "incorrect": 270,
+            "invalid": 3,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.8836134358934942e-06,
+                "14": 2.0965387648175238e-06,
+                "15": 2.6249806523992447e-06,
+                "16": 3.4954657621710794e-06,
+                "17": 5.71346890865243e-06
+            },
+            "time": 85.59606909751892
+        },
+        {
+            "sample_num": "2",
+            "element_num": 1049,
+            "element_index": 10329,
+            "request": "{'prompt': '{}, in', 'subject': 'Sebatik Island', 'target_new': {'str': 'Japan'}}",
+            "correct": 568,
+            "incorrect": 301,
+            "invalid": 3,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.9157300812366884e-06,
+                "14": 2.1312018816388445e-06,
+                "15": 2.666802856765571e-06,
+                "16": 3.553111355358851e-06,
+                "17": 5.814079941046657e-06
+            },
+            "time": 85.5733904838562
+        },
+        {
+            "sample_num": "2",
+            "element_num": 1099,
+            "element_index": 20900,
+            "request": "{'prompt': '{} started in', 'subject': 'Gripin', 'target_new': {'str': 'London'}}",
+            "correct": 545,
+            "incorrect": 323,
+            "invalid": 4,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.9423682715569157e-06,
+                "14": 2.160995563826873e-06,
+                "15": 2.703380459934124e-06,
+                "16": 3.605448000598699e-06,
+                "17": 5.906643764319597e-06
+            },
+            "time": 87.29630875587463
+        },
+        {
+            "sample_num": "2",
+            "element_num": 1149,
+            "element_index": 18275,
+            "request": "{'prompt': \"{}'s profession is an\", 'subject': 'Jim Grimsley', 'target_new': {'str': 'actor'}}",
+            "correct": 521,
+            "incorrect": 347,
+            "invalid": 4,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.9791177692241035e-06,
+                "14": 2.2037181679479545e-06,
+                "15": 2.7557980502024293e-06,
+                "16": 3.674836079881061e-06,
+                "17": 6.030680651747389e-06
+            },
+            "time": 87.0040488243103
+        },
+        {
+            "sample_num": "2",
+            "element_num": 1199,
+            "element_index": 11471,
+            "request": "{'prompt': '{} is a part of the continent of', 'subject': 'Wales', 'target_new': {'str': 'Antarctica'}}",
+            "correct": 520,
+            "incorrect": 347,
+            "invalid": 5,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.0058198515471304e-06,
+                "14": 2.2341898784361547e-06,
+                "15": 2.7953308290307177e-06,
+                "16": 3.7283314213709673e-06,
+                "17": 6.128719178377651e-06
+            },
+            "time": 89.32428216934204
+        },
+        {
+            "sample_num": "2",
+            "element_num": 1249,
+            "element_index": 12808,
+            "request": "{'prompt': '{} is from', 'subject': 'Ottawa Civic Centre', 'target_new': {'str': 'Omaha'}}",
+            "correct": 501,
+            "incorrect": 362,
+            "invalid": 9,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.0380966816446744e-06,
+                "14": 2.2713650196237722e-06,
+                "15": 2.839361513906624e-06,
+                "16": 3.789620677707717e-06,
+                "17": 6.2421104303211905e-06
+            },
+            "time": 88.57075953483582
+        },
+        {
+            "sample_num": "2",
+            "element_num": 1299,
+            "element_index": 2376,
+            "request": "{'prompt': 'The original language of {} is', 'subject': 'Star Trek: Generations', 'target_new': {'str': 'Tamil'}}",
+            "correct": 470,
+            "incorrect": 392,
+            "invalid": 10,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.0664999738073675e-06,
+                "14": 2.3044487988954643e-06,
+                "15": 2.8799674964830047e-06,
+                "16": 3.8464736462628935e-06,
+                "17": 6.350713192659896e-06
+            },
+            "time": 89.80434823036194
+        },
+        {
+            "sample_num": "2",
+            "element_num": 1349,
+            "element_index": 5964,
+            "request": "{'prompt': '{} found employment in', 'subject': 'Georges Cuvier', 'target_new': {'str': 'Warsaw'}}",
+            "correct": 462,
+            "incorrect": 402,
+            "invalid": 8,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.0958061668352457e-06,
+                "14": 2.3352108655672055e-06,
+                "15": 2.919592134276172e-06,
+                "16": 3.896855560014956e-06,
+                "17": 6.441741334128892e-06
+            },
+            "time": 87.56610655784607
+        },
+        {
+            "sample_num": "2",
+            "element_num": 1399,
+            "element_index": 18004,
+            "request": "{'prompt': '{}, in', 'subject': 'Persegres Gresik United', 'target_new': {'str': 'Japan'}}",
+            "correct": 463,
+            "incorrect": 402,
+            "invalid": 7,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.124975935657858e-06,
+                "14": 2.3690665784670273e-06,
+                "15": 2.962103508252767e-06,
+                "16": 3.955334705096902e-06,
+                "17": 6.555728305102093e-06
+            },
+            "time": 89.68068075180054
+        },
+        {
+            "sample_num": "2",
+            "element_num": 1449,
+            "element_index": 8771,
+            "request": "{'prompt': 'The language of {} is', 'subject': 'Nirdoshi', 'target_new': {'str': 'French'}}",
+            "correct": 459,
+            "incorrect": 399,
+            "invalid": 14,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.147122813767055e-06,
+                "14": 2.3930890620249556e-06,
+                "15": 2.994704573211493e-06,
+                "16": 3.99830150854541e-06,
+                "17": 6.644955647061579e-06
+            },
+            "time": 88.99925684928894
+        },
+        {
+            "sample_num": "2",
+            "element_num": 1499,
+            "element_index": 17670,
+            "request": "{'prompt': '{}, whose position is that of', 'subject': 'Basil of Caesarea', 'target_new': {'str': 'mayor'}}",
+            "correct": 456,
+            "incorrect": 399,
+            "invalid": 17,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.1749394818471046e-06,
+                "14": 2.4266241780424025e-06,
+                "15": 3.03558317682473e-06,
+                "16": 4.056923899042886e-06,
+                "17": 6.7554642555478495e-06
+            },
+            "time": 88.356036901474
+        },
+        {
+            "sample_num": "2",
+            "element_num": 1549,
+            "element_index": 1529,
+            "request": "{'prompt': '{} is in', 'subject': 'Ravens Mountains', 'target_new': {'str': 'Europe'}}",
+            "correct": 455,
+            "incorrect": 407,
+            "invalid": 10,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.2011779492459027e-06,
+                "14": 2.4549226509407163e-06,
+                "15": 3.0728833735338412e-06,
+                "16": 4.1067228266911115e-06,
+                "17": 6.852564638393233e-06
+            },
+            "time": 88.21251463890076
+        },
+        {
+            "sample_num": "2",
+            "element_num": 1599,
+            "element_index": 3389,
+            "request": "{'prompt': '{} is follower of', 'subject': 'Ghazan', 'target_new': {'str': 'Buddhism'}}",
+            "correct": 447,
+            "incorrect": 412,
+            "invalid": 13,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.229821348009864e-06,
+                "14": 2.4885514449124457e-06,
+                "15": 3.1155007036431925e-06,
+                "16": 4.164649453741731e-06,
+                "17": 6.959442544030026e-06
+            },
+            "time": 88.61581516265869
+        },
+        {
+            "sample_num": "2",
+            "element_num": 1649,
+            "element_index": 34,
+            "request": "{'prompt': '{} was employed in', 'subject': 'Laurent Cars', 'target_new': {'str': 'Philadelphia'}}",
+            "correct": 448,
+            "incorrect": 408,
+            "invalid": 16,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.2530086880578892e-06,
+                "14": 2.514807420084253e-06,
+                "15": 3.1505844617640832e-06,
+                "16": 4.212067324260715e-06,
+                "17": 7.053000445012003e-06
+            },
+            "time": 89.59769797325134
+        },
+        {
+            "sample_num": "2",
+            "element_num": 1699,
+            "element_index": 6014,
+            "request": "{'prompt': '{} plays', 'subject': 'The Jazztet', 'target_new': {'str': 'parody'}}",
+            "correct": 435,
+            "incorrect": 402,
+            "invalid": 35,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.277445446452475e-06,
+                "14": 2.5418817131139804e-06,
+                "15": 3.1827892144065117e-06,
+                "16": 4.261345111444825e-06,
+                "17": 7.155163530114805e-06
+            },
+            "time": 88.65284061431885
+        },
+        {
+            "sample_num": "2",
+            "element_num": 1749,
+            "element_index": 18955,
+            "request": "{'prompt': 'The original language of {} is', 'subject': 'Saravannan Meenatchi', 'target_new': {'str': 'Hindi'}}",
+            "correct": 438,
+            "incorrect": 402,
+            "invalid": 32,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.3060986222844804e-06,
+                "14": 2.5755068691069027e-06,
+                "15": 3.225474756618496e-06,
+                "16": 4.321342657931382e-06,
+                "17": 7.270703918038635e-06
+            },
+            "time": 85.15633606910706
+        },
+        {
+            "sample_num": "2",
+            "element_num": 1799,
+            "element_index": 13753,
+            "request": "{'prompt': '{} writes in', 'subject': 'Han Han', 'target_new': {'str': 'Romanian'}}",
+            "correct": 443,
+            "incorrect": 401,
+            "invalid": 28,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.333058091608109e-06,
+                "14": 2.606702537377714e-06,
+                "15": 3.266136900492711e-06,
+                "16": 4.379296569823055e-06,
+                "17": 7.3878918556147255e-06
+            },
+            "time": 84.30315899848938
+        },
+        {
+            "sample_num": "2",
+            "element_num": 1849,
+            "element_index": 17985,
+            "request": "{'prompt': '{} used to work in', 'subject': 'Ferhat Abbas', 'target_new': {'str': 'Ottawa'}}",
+            "correct": 437,
+            "incorrect": 398,
+            "invalid": 37,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.3635334400751162e-06,
+                "14": 2.6431639525981154e-06,
+                "15": 3.3107760373241035e-06,
+                "16": 4.449679636309156e-06,
+                "17": 7.5331886364438105e-06
+            },
+            "time": 84.50730800628662
+        },
+        {
+            "sample_num": "2",
+            "element_num": 1899,
+            "element_index": 16126,
+            "request": "{'prompt': '{}, who plays', 'subject': 'Hilding Rosenberg', 'target_new': {'str': 'sitcom'}}",
+            "correct": 436,
+            "incorrect": 393,
+            "invalid": 43,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.3874538328527706e-06,
+                "14": 2.669554078238434e-06,
+                "15": 3.344617653056048e-06,
+                "16": 4.498267571761971e-06,
+                "17": 7.63036405260209e-06
+            },
+            "time": 85.85906457901001
+        },
+        {
+            "sample_num": "2",
+            "element_num": 1949,
+            "element_index": 7732,
+            "request": "{'prompt': '{} performs on the', 'subject': 'Allen Toussaint', 'target_new': {'str': 'guitar'}}",
+            "correct": 445,
+            "incorrect": 383,
+            "invalid": 44,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.4104049316520104e-06,
+                "14": 2.695757075343863e-06,
+                "15": 3.3802291454776423e-06,
+                "16": 4.553973667498212e-06,
+                "17": 7.738918611721601e-06
+            },
+            "time": 84.12992191314697
+        },
+        {
+            "sample_num": "2",
+            "element_num": 1999,
+            "element_index": 19812,
+            "request": "{'prompt': '{} is native to', 'subject': 'Jason French', 'target_new': {'str': 'Dublin'}}",
+            "correct": 437,
+            "incorrect": 381,
+            "invalid": 54,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.4318028408742975e-06,
+                "14": 2.721580358411302e-06,
+                "15": 3.414297680137679e-06,
+                "16": 4.609367351804394e-06,
+                "17": 7.860693585826084e-06
+            },
+            "time": 84.8217420578003
+        },
+        {
+            "sample_num": "2",
+            "element_num": 2049,
+            "element_index": 21250,
+            "request": "{'prompt': '{} performs', 'subject': 'Humphrey Lyttelton', 'target_new': {'str': 'sitcom'}}",
+            "correct": 436,
+            "incorrect": 383,
+            "invalid": 53,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.450816054988536e-06,
+                "14": 2.744500761764357e-06,
+                "15": 3.4432696338626556e-06,
+                "16": 4.654674285120564e-06,
+                "17": 7.962596100696828e-06
+            },
+            "time": 85.95916032791138
+        },
+        {
+            "sample_num": "2",
+            "element_num": 2099,
+            "element_index": 3295,
+            "request": "{'prompt': '{} premiered on', 'subject': 'Caesars Challenge', 'target_new': {'str': 'MTV'}}",
+            "correct": 440,
+            "incorrect": 381,
+            "invalid": 51,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.4693192699487554e-06,
+                "14": 2.766218813121668e-06,
+                "15": 3.4748657071759226e-06,
+                "16": 4.701662874140311e-06,
+                "17": 8.084371074801311e-06
+            },
+            "time": 84.78644371032715
+        },
+        {
+            "sample_num": "2",
+            "element_num": 2149,
+            "element_index": 16835,
+            "request": "{'prompt': 'The twin city of {} is', 'subject': 'Algiers', 'target_new': {'str': 'Shanghai'}}",
+            "correct": 433,
+            "incorrect": 375,
+            "invalid": 64,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.4890227905416396e-06,
+                "14": 2.7892815523955505e-06,
+                "15": 3.5087805372313596e-06,
+                "16": 4.762007847602945e-06,
+                "17": 8.239198905357625e-06
+            },
+            "time": 85.4805805683136
+        },
+        {
+            "sample_num": "2",
+            "element_num": 2199,
+            "element_index": 15772,
+            "request": "{'prompt': '{} works as', 'subject': 'Charles Gwathmey', 'target_new': {'str': 'diplomat'}}",
+            "correct": 434,
+            "incorrect": 374,
+            "invalid": 64,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.511203774702153e-06,
+                "14": 2.815018433466321e-06,
+                "15": 3.5433872653811704e-06,
+                "16": 4.820841695618583e-06,
+                "17": 8.372446245630272e-06
+            },
+            "time": 84.90212082862854
+        },
+        {
+            "sample_num": "2",
+            "element_num": 2249,
+            "element_index": 21101,
+            "request": "{'prompt': '{} is a part of the continent of', 'subject': 'Mount Cocks', 'target_new': {'str': 'Europe'}}",
+            "correct": 445,
+            "incorrect": 358,
+            "invalid": 69,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.5342822027596412e-06,
+                "14": 2.8430777092580684e-06,
+                "15": 3.579469193937257e-06,
+                "16": 4.886114766122773e-06,
+                "17": 8.5323081293609e-06
+            },
+            "time": 86.04183530807495
+        },
+        {
+            "sample_num": "2",
+            "element_num": 2299,
+            "element_index": 10133,
+            "request": "{'prompt': '{} is a native speaker of', 'subject': 'Marcelle Auclair', 'target_new': {'str': 'Dutch'}}",
+            "correct": 443,
+            "incorrect": 354,
+            "invalid": 75,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.559131871748832e-06,
+                "14": 2.8717640816466883e-06,
+                "15": 3.621946916609886e-06,
+                "16": 4.966315827914514e-06,
+                "17": 8.764792255533393e-06
+            },
+            "time": 84.35781121253967
+        },
+        {
+            "sample_num": "2",
+            "element_num": 2349,
+            "element_index": 5577,
+            "request": "{'prompt': '{} found employment in', 'subject': 'Piet Mondrian', 'target_new': {'str': 'Dresden'}}",
+            "correct": 461,
+            "incorrect": 327,
+            "invalid": 84,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.584822368589812e-06,
+                "14": 2.8998092602705583e-06,
+                "15": 3.660412858152995e-06,
+                "16": 5.032247372582788e-06,
+                "17": 8.943304237618577e-06
+            },
+            "time": 85.5347330570221
+        },
+        {
+            "sample_num": "2",
+            "element_num": 2399,
+            "element_index": 5624,
+            "request": "{'prompt': '{} plays', 'subject': 'Gunnar Andreas Berg', 'target_new': {'str': 'opera'}}",
+            "correct": 491,
+            "incorrect": 305,
+            "invalid": 76,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.60527167483815e-06,
+                "14": 2.9216644179541618e-06,
+                "15": 3.6892431580781704e-06,
+                "16": 5.088048510515364e-06,
+                "17": 9.229789611708838e-06
+            },
+            "time": 86.077472448349
+        },
+        {
+            "sample_num": "2",
+            "element_num": 2449,
+            "element_index": 7142,
+            "request": "{'prompt': 'The twin city of {} is', 'subject': 'Belgrade', 'target_new': {'str': 'Tehran'}}",
+            "correct": 513,
+            "incorrect": 282,
+            "invalid": 77,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.6280456495442195e-06,
+                "14": 2.947102757389075e-06,
+                "15": 3.7280658489180496e-06,
+                "16": 5.154720838618232e-06,
+                "17": 9.526060239295475e-06
+            },
+            "time": 84.82926177978516
+        },
+        {
+            "sample_num": "2",
+            "element_num": 2499,
+            "element_index": 14387,
+            "request": "{'prompt': '{}, that was from', 'subject': 'FitzGerald dynasty', 'target_new': {'str': 'Sweden'}}",
+            "correct": 517,
+            "incorrect": 271,
+            "invalid": 84,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.65374410446384e-06,
+                "14": 2.9791249289701227e-06,
+                "15": 3.771105411942699e-06,
+                "16": 5.243658051767852e-06,
+                "17": 9.900818440655712e-06
+            },
+            "time": 85.26369619369507
+        },
+        {
+            "sample_num": "2",
+            "element_num": 2549,
+            "element_index": 9570,
+            "request": "{'prompt': '{} was founded in', 'subject': 'RBC Information Systems', 'target_new': {'str': 'Philadelphia'}}",
+            "correct": 530,
+            "incorrect": 256,
+            "invalid": 86,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.6887796593655366e-06,
+                "14": 3.0187090942490613e-06,
+                "15": 3.832606125797611e-06,
+                "16": 5.383212737797294e-06,
+                "17": 1.0637105333444197e-05
+            },
+            "time": 85.42556571960449
+        },
+        {
+            "sample_num": "2",
+            "element_num": 2599,
+            "element_index": 13926,
+            "request": "{'prompt': '{} from', 'subject': 'empanada', 'target_new': {'str': 'Japan'}}",
+            "correct": 551,
+            "incorrect": 232,
+            "invalid": 89,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.7126850454806117e-06,
+                "14": 3.046162646569428e-06,
+                "15": 3.872768957080552e-06,
+                "16": 5.483881977852434e-06,
+                "17": 1.1145049938932061e-05
+            },
+            "time": 85.47818875312805
+        },
+        {
+            "sample_num": "2",
+            "element_num": 2649,
+            "element_index": 15967,
+            "request": "{'prompt': '{} was native to', 'subject': 'Roddy McMillan', 'target_new': {'str': 'Athens'}}",
+            "correct": 532,
+            "incorrect": 248,
+            "invalid": 92,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.747754251686274e-06,
+                "14": 3.086071274083224e-06,
+                "15": 3.93379832530627e-06,
+                "16": 5.600693839369342e-06,
+                "17": 1.1700009963533375e-05
+            },
+            "time": 84.79108357429504
+        },
+        {
+            "sample_num": "2",
+            "element_num": 2699,
+            "element_index": 19172,
+            "request": "{'prompt': '{} premieres on', 'subject': 'NFL on CBS', 'target_new': {'str': 'NBC'}}",
+            "correct": 511,
+            "incorrect": 257,
+            "invalid": 104,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.7834282718686154e-06,
+                "14": 3.1250920073944144e-06,
+                "15": 3.983187525591347e-06,
+                "16": 5.733077614422655e-06,
+                "17": 1.2772743502864614e-05
+            },
+            "time": 85.69567108154297
+        },
+        {
+            "sample_num": "2",
+            "element_num": 2749,
+            "element_index": 14090,
+            "request": "{'prompt': '{} took up work in', 'subject': 'Lucio Fontana', 'target_new': {'str': 'Madrid'}}",
+            "correct": 495,
+            "incorrect": 288,
+            "invalid": 89,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.819603651005309e-06,
+                "14": 3.164784857290215e-06,
+                "15": 4.036859536427073e-06,
+                "16": 5.873266218259232e-06,
+                "17": 1.3888846297049895e-05
+            },
+            "time": 85.41940760612488
+        },
+        {
+            "sample_num": "2",
+            "element_num": 2799,
+            "element_index": 16124,
+            "request": "{'prompt': '{}, who holds the position of', 'subject': 'Willibrord', 'target_new': {'str': 'pope'}}",
+            "correct": 469,
+            "incorrect": 300,
+            "invalid": 103,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.8545405257318635e-06,
+                "14": 3.2028638088377193e-06,
+                "15": 4.087496108695632e-06,
+                "16": 6.011969617247814e-06,
+                "17": 1.495918786531547e-05
+            },
+            "time": 86.04356908798218
+        },
+        {
+            "sample_num": "2",
+            "element_num": 2849,
+            "element_index": 19267,
+            "request": "{'prompt': '{} was formed in', 'subject': 'Baldwin Piano Company', 'target_new': {'str': 'Paris'}}",
+            "correct": 424,
+            "incorrect": 305,
+            "invalid": 143,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.8859369649580913e-06,
+                "14": 3.236625616409583e-06,
+                "15": 4.135495146329049e-06,
+                "16": 6.1546702454506885e-06,
+                "17": 1.6490546840941533e-05
+            },
+            "time": 85.45715427398682
+        },
+        {
+            "sample_num": "2",
+            "element_num": 2899,
+            "element_index": 9093,
+            "request": "{'prompt': '{}, that was formulated in', 'subject': 'Veronika Voss', 'target_new': {'str': 'Spain'}}",
+            "correct": 373,
+            "incorrect": 316,
+            "invalid": 183,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.9184559480199823e-06,
+                "14": 3.2713942346163094e-06,
+                "15": 4.178976269031409e-06,
+                "16": 6.2333110690815374e-06,
+                "17": 1.695222636044491e-05
+            },
+            "time": 84.98069214820862
+        },
+        {
+            "sample_num": "2",
+            "element_num": 2949,
+            "element_index": 4592,
+            "request": "{'prompt': '{} plays', 'subject': 'The Flintstones', 'target_new': {'str': 'jazz'}}",
+            "correct": 369,
+            "incorrect": 337,
+            "invalid": 166,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.950827592940186e-06,
+                "14": 3.3084936603700044e-06,
+                "15": 4.234697371430229e-06,
+                "16": 6.381863386195619e-06,
+                "17": 1.8362798073212616e-05
+            },
+            "time": 84.72917079925537
+        },
+        {
+            "sample_num": "2",
+            "element_num": 2999,
+            "element_index": 1345,
+            "request": "{'prompt': 'In {}, an official language is', 'subject': 'Moudon', 'target_new': {'str': 'Spanish'}}",
+            "correct": 373,
+            "incorrect": 336,
+            "invalid": 163,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.9820744202879723e-06,
+                "14": 3.3425039873691276e-06,
+                "15": 4.2745537029986735e-06,
+                "16": 6.507416856038617e-06,
+                "17": 1.900065763038583e-05
+            },
+            "time": 84.7796003818512
+        },
+        {
+            "sample_num": "2",
+            "element_num": 3049,
+            "element_index": 17452,
+            "request": "{'prompt': 'The official religion of {} is', 'subject': 'Al-Masudi', 'target_new': {'str': 'Islam'}}",
+            "correct": 355,
+            "incorrect": 330,
+            "invalid": 187,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.0131197945593158e-06,
+                "14": 3.3797491596487816e-06,
+                "15": 4.32490696766763e-06,
+                "16": 6.621736247325316e-06,
+                "17": 2.0296543880249374e-05
+            },
+            "time": 85.91583704948425
+        },
+        {
+            "sample_num": "2",
+            "element_num": 3099,
+            "element_index": 430,
+            "request": "{'prompt': '{} writes in', 'subject': 'Huangfu Mi', 'target_new': {'str': 'English'}}",
+            "correct": 353,
+            "incorrect": 292,
+            "invalid": 227,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.0441258331848076e-06,
+                "14": 3.415203082113294e-06,
+                "15": 4.377839559310814e-06,
+                "16": 6.6214820435561705e-06,
+                "17": 1.8427042959956452e-05
+            },
+            "time": 84.80287885665894
+        },
+        {
+            "sample_num": "2",
+            "element_num": 3149,
+            "element_index": 8909,
+            "request": "{'prompt': 'The mother tongue of {} is', 'subject': 'Paulette Dubost', 'target_new': {'str': 'Greek'}}",
+            "correct": 326,
+            "incorrect": 286,
+            "invalid": 260,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.0715589218743844e-06,
+                "14": 3.4457812034816016e-06,
+                "15": 4.414020168042043e-06,
+                "16": 6.7432961259328295e-06,
+                "17": 1.83934662345564e-05
+            },
+            "time": 85.7006266117096
+        },
+        {
+            "sample_num": "2",
+            "element_num": 3199,
+            "element_index": 5923,
+            "request": "{'prompt': '{} performs on the', 'subject': 'Amund Maarud', 'target_new': {'str': 'piano'}}",
+            "correct": 442,
+            "incorrect": 235,
+            "invalid": 195,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.1056888474267907e-06,
+                "14": 3.4859406241594115e-06,
+                "15": 4.544709099718602e-06,
+                "16": 6.893317276990274e-06,
+                "17": 1.75380046130158e-05
+            },
+            "time": 84.532386302948
+        },
+        {
+            "sample_num": "2",
+            "element_num": 3249,
+            "element_index": 21407,
+            "request": "{'prompt': '{} is located in', 'subject': 'Miziya Peak', 'target_new': {'str': 'Asia'}}",
+            "correct": 367,
+            "incorrect": 292,
+            "invalid": 213,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.1358699743577745e-06,
+                "14": 3.516627430144581e-06,
+                "15": 4.5889714783697855e-06,
+                "16": 6.928636594238924e-06,
+                "17": 1.8710732547333464e-05
+            },
+            "time": 85.62094736099243
+        },
+        {
+            "sample_num": "2",
+            "element_num": 3299,
+            "element_index": 14584,
+            "request": "{'prompt': '{}, founded in', 'subject': 'The Clientele', 'target_new': {'str': 'England'}}",
+            "correct": 351,
+            "incorrect": 297,
+            "invalid": 224,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.1691599815530935e-06,
+                "14": 3.555937837518286e-06,
+                "15": 4.6523073251591995e-06,
+                "16": 6.965443390072323e-06,
+                "17": 1.99697315110825e-05
+            },
+            "time": 85.58722352981567
+        },
+        {
+            "sample_num": "2",
+            "element_num": 3349,
+            "element_index": 17309,
+            "request": "{'prompt': 'The original language of {} is', 'subject': 'From the Earth to the Moon', 'target_new': {'str': 'Italian'}}",
+            "correct": 407,
+            "incorrect": 276,
+            "invalid": 189,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.203052528988337e-06,
+                "14": 3.596872375055682e-06,
+                "15": 4.7038161028467584e-06,
+                "16": 7.0412156674137805e-06,
+                "17": 1.896404501167126e-05
+            },
+            "time": 85.55841970443726
+        },
+        {
+            "sample_num": "2",
+            "element_num": 3399,
+            "element_index": 7051,
+            "request": "{'prompt': '{} originates from', 'subject': 'Accursius', 'target_new': {'str': 'Lyon'}}",
+            "correct": 415,
+            "incorrect": 300,
+            "invalid": 157,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.2307966648659203e-06,
+                "14": 3.6312769680080237e-06,
+                "15": 4.7613962124160025e-06,
+                "16": 7.211214324343018e-06,
+                "17": 1.748235081322491e-05
+            },
+            "time": 85.82442355155945
+        },
+        {
+            "sample_num": "2",
+            "element_num": 3449,
+            "element_index": 5576,
+            "request": "{'prompt': '{} is located in', 'subject': 'Federally Administered Tribal Areas', 'target_new': {'str': 'Germany'}}",
+            "correct": 394,
+            "incorrect": 334,
+            "invalid": 144,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.2669472602719907e-06,
+                "14": 3.6724607070937054e-06,
+                "15": 4.838065706280759e-06,
+                "16": 7.343139259319287e-06,
+                "17": 1.7427717466489412e-05
+            },
+            "time": 85.05511903762817
+        },
+        {
+            "sample_num": "2",
+            "element_num": 3499,
+            "element_index": 9185,
+            "request": "{'prompt': '{} performs', 'subject': 'Ken Hyder', 'target_new': {'str': 'opera'}}",
+            "correct": 374,
+            "incorrect": 353,
+            "invalid": 145,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.2970592656056397e-06,
+                "14": 3.7144391171750613e-06,
+                "15": 4.891975095233647e-06,
+                "16": 7.4557337939040735e-06,
+                "17": 1.848066494858358e-05
+            },
+            "time": 85.33319568634033
+        },
+        {
+            "sample_num": "2",
+            "element_num": 3549,
+            "element_index": 8516,
+            "request": "{'prompt': '{} is known for performing', 'subject': 'Bobby Timmons', 'target_new': {'str': 'trance'}}",
+            "correct": 367,
+            "incorrect": 352,
+            "invalid": 153,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.3193896342709195e-06,
+                "14": 3.7422726109070936e-06,
+                "15": 4.939706286677392e-06,
+                "16": 7.534969427069882e-06,
+                "17": 1.9802482711384073e-05
+            },
+            "time": 86.03600335121155
+        },
+        {
+            "sample_num": "2",
+            "element_num": 3599,
+            "element_index": 19049,
+            "request": "{'prompt': '{}, who works as', 'subject': 'Andrew Salkey', 'target_new': {'str': 'actor'}}",
+            "correct": 374,
+            "incorrect": 332,
+            "invalid": 166,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.3516466828587e-06,
+                "14": 3.7850106764381053e-06,
+                "15": 5.011666416976368e-06,
+                "16": 7.667035788472276e-06,
+                "17": 2.101424070133362e-05
+            },
+            "time": 85.03514337539673
+        },
+        {
+            "sample_num": "2",
+            "element_num": 3649,
+            "element_index": 2589,
+            "request": "{'prompt': '{}, a native', 'subject': 'Pyotr Vyazemsky', 'target_new': {'str': 'English'}}",
+            "correct": 392,
+            "incorrect": 332,
+            "invalid": 148,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.3723881642799824e-06,
+                "14": 3.810833959505544e-06,
+                "15": 5.105438503960613e-06,
+                "16": 7.862479833420366e-06,
+                "17": 1.775039163476322e-05
+            },
+            "time": 85.18979597091675
+        },
+        {
+            "sample_num": "2",
+            "element_num": 3699,
+            "element_index": 3510,
+            "request": "{'prompt': '{} is created by', 'subject': 'Toyota Celica', 'target_new': {'str': 'Cadillac'}}",
+            "correct": 370,
+            "incorrect": 340,
+            "invalid": 162,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.406762971280841e-06,
+                "14": 3.849587756121764e-06,
+                "15": 5.165120001038304e-06,
+                "16": 7.923496013972908e-06,
+                "17": 1.8703971363720484e-05
+            },
+            "time": 85.31818771362305
+        },
+        {
+            "sample_num": "2",
+            "element_num": 3749,
+            "element_index": 544,
+            "request": "{'prompt': '{} plays in the position of', 'subject': 'Scot Brantley', 'target_new': {'str': 'midfielder'}}",
+            "correct": 350,
+            "incorrect": 340,
+            "invalid": 182,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.4359293294983217e-06,
+                "14": 3.880846179526998e-06,
+                "15": 5.228454483585665e-06,
+                "16": 7.956023182487115e-06,
+                "17": 1.9699871700140648e-05
+            },
+            "time": 84.98494505882263
+        },
+        {
+            "sample_num": "2",
+            "element_num": 3799,
+            "element_index": 21254,
+            "request": "{'prompt': '{}, in', 'subject': 'Montenegro', 'target_new': {'str': 'Asia'}}",
+            "correct": 368,
+            "incorrect": 313,
+            "invalid": 191,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.4673857953748666e-06,
+                "14": 3.9222500163305085e-06,
+                "15": 5.348227205104195e-06,
+                "16": 8.367429472855292e-06,
+                "17": 2.087745269818697e-05
+            },
+            "time": 85.59995460510254
+        },
+        {
+            "sample_num": "2",
+            "element_num": 3849,
+            "element_index": 3173,
+            "request": "{'prompt': '{} was developed in', 'subject': 'The Band', 'target_new': {'str': 'Austria'}}",
+            "correct": 341,
+            "incorrect": 323,
+            "invalid": 208,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.501686478557531e-06,
+                "14": 3.963027666031849e-06,
+                "15": 5.403845989349065e-06,
+                "16": 8.330936907441355e-06,
+                "17": 2.102807593473699e-05
+            },
+            "time": 84.98669838905334
+        },
+        {
+            "sample_num": "2",
+            "element_num": 3899,
+            "element_index": 21531,
+            "request": "{'prompt': '{} premieres on', 'subject': 'Hollywood Game Night', 'target_new': {'str': 'PBS'}}",
+            "correct": 444,
+            "incorrect": 243,
+            "invalid": 185,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.5297478007123573e-06,
+                "14": 4.011988494312391e-06,
+                "15": 5.513507858267985e-06,
+                "16": 8.42604276840575e-06,
+                "17": 2.0083580238861032e-05
+            },
+            "time": 84.54508256912231
+        },
+        {
+            "sample_num": "2",
+            "element_num": 3949,
+            "element_index": 2157,
+            "request": "{'prompt': 'The capital of {} is', 'subject': 'Kingdom of Bohemia', 'target_new': {'str': 'Santiago'}}",
+            "correct": 397,
+            "incorrect": 319,
+            "invalid": 156,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.560774302968639e-06,
+                "14": 4.047262791573303e-06,
+                "15": 5.561949365073815e-06,
+                "16": 8.460980097879656e-06,
+                "17": 1.9990735381725244e-05
+            },
+            "time": 83.60759377479553
+        },
+        {
+            "sample_num": "2",
+            "element_num": 3999,
+            "element_index": 13961,
+            "request": "{'prompt': 'In {}, an official language is', 'subject': 'Rwanda', 'target_new': {'str': 'English'}}",
+            "correct": 402,
+            "incorrect": 317,
+            "invalid": 153,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.591055701690493e-06,
+                "14": 4.089322374056792e-06,
+                "15": 5.630680789181497e-06,
+                "16": 8.521783456671983e-06,
+                "17": 2.085961023112759e-05
+            },
+            "time": 85.10281157493591
+        },
+        {
+            "sample_num": "2",
+            "element_num": 4049,
+            "element_index": 14162,
+            "request": "{'prompt': 'The official language of {} is', 'subject': \"L'Isle\", 'target_new': {'str': 'Spanish'}}",
+            "correct": 522,
+            "incorrect": 213,
+            "invalid": 137,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.63096728506207e-06,
+                "14": 4.1425028030062094e-06,
+                "15": 5.730468274123268e-06,
+                "16": 8.757539944781456e-06,
+                "17": 1.9884562789229676e-05
+            },
+            "time": 84.87273144721985
+        },
+        {
+            "sample_num": "2",
+            "element_num": 4099,
+            "element_index": 827,
+            "request": "{'prompt': '{} used to work in', 'subject': 'Willy Brandt', 'target_new': {'str': 'Manchester'}}",
+            "correct": 353,
+            "incorrect": 256,
+            "invalid": 263,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.680932422867045e-06,
+                "14": 4.2362726162537e-06,
+                "15": 5.848915407113964e-06,
+                "16": 8.929197974794079e-06,
+                "17": 2.2542672013514675e-05
+            },
+            "time": 85.32397103309631
+        },
+        {
+            "sample_num": "2",
+            "element_num": 4149,
+            "element_index": 2410,
+            "request": "{'prompt': '{} is originally from', 'subject': 'Peter Lassally', 'target_new': {'str': 'Philadelphia'}}",
+            "correct": 179,
+            "incorrect": 51,
+            "invalid": 642,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.7319275634217774e-06,
+                "14": 4.321591859479668e-06,
+                "15": 6.0296524679870345e-06,
+                "16": 9.085868441616185e-06,
+                "17": 2.041540756181348e-05
+            },
+            "time": 84.38473629951477
+        },
+        {
+            "sample_num": "2",
+            "element_num": 4199,
+            "element_index": 11226,
+            "request": "{'prompt': '{} is in', 'subject': 'Knoxville metropolitan area', 'target_new': {'str': 'Ontario'}}",
+            "correct": 306,
+            "incorrect": 131,
+            "invalid": 435,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.7732331747974968e-06,
+                "14": 4.414111572259571e-06,
+                "15": 6.1140003708715085e-06,
+                "16": 9.323791346105281e-06,
+                "17": 2.1346844732761383e-05
+            },
+            "time": 85.7201452255249
+        },
+        {
+            "sample_num": "2",
+            "element_num": 4249,
+            "element_index": 21735,
+            "request": "{'prompt': '{} is located in', 'subject': 'Samuel Point', 'target_new': {'str': 'Europe'}}",
+            "correct": 429,
+            "incorrect": 210,
+            "invalid": 233,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.842591468128376e-06,
+                "14": 4.7673720473540016e-06,
+                "15": 6.621697593800491e-06,
+                "16": 9.970135579351336e-06,
+                "17": 2.0454790501389652e-05
+            },
+            "time": 86.08128881454468
+        },
+        {
+            "sample_num": "2",
+            "element_num": 4299,
+            "element_index": 2727,
+            "request": "{'prompt': '{} is in', 'subject': 'Battle of Tolbiac', 'target_new': {'str': 'Helsinki'}}",
+            "correct": 260,
+            "incorrect": 197,
+            "invalid": 415,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.906814526999369e-06,
+                "14": 5.317380328051513e-06,
+                "15": 7.799638297001366e-06,
+                "16": 1.0028031283582095e-05,
+                "17": 2.0929226593580097e-05
+            },
+            "time": 86.37874054908752
+        },
+        {
+            "sample_num": "2",
+            "element_num": 4349,
+            "element_index": 18497,
+            "request": "{'prompt': '{} follows the religion of', 'subject': 'Nasiruddin Chiragh Dehlavi', 'target_new': {'str': 'Christianity'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 4.1447615330980625e-06,
+                "14": 9.156548003375065e-06,
+                "15": 1.1435477063059807e-05,
+                "16": 1.0706938155635726e-05,
+                "17": 2.5025528884725645e-05
+            },
+            "time": 86.27931642532349
+        },
+        {
+            "sample_num": "2",
+            "element_num": 4399,
+            "element_index": 16156,
+            "request": "{'prompt': '{}, who works as', 'subject': 'Rajakokila', 'target_new': {'str': 'politician'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 4.4831549530499615e-06,
+                "14": 1.5323976185754873e-05,
+                "15": 1.5759849702590145e-05,
+                "16": 1.3192719961807597e-05,
+                "17": 3.942128751077689e-05
+            },
+            "time": 86.84788870811462
+        },
+        {
+            "sample_num": "2",
+            "element_num": 4449,
+            "element_index": 1286,
+            "request": "{'prompt': '{} was named after', 'subject': 'Cleveland Burke Lakefront Airport', 'target_new': {'str': 'coffee'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 4.8793567657412495e-06,
+                "14": 2.128725463990122e-05,
+                "15": 1.5566416550427675e-05,
+                "16": 1.4680496860819403e-05,
+                "17": 4.839316534344107e-05
+            },
+            "time": 85.89438128471375
+        },
+        {
+            "sample_num": "2",
+            "element_num": 4499,
+            "element_index": 9099,
+            "request": "{'prompt': '{} performs', 'subject': 'Johnny Alegre Affinity', 'target_new': {'str': 'sitcom'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 5.2575751396943815e-06,
+                "14": 2.2963493393035606e-05,
+                "15": 2.8603728424059227e-05,
+                "16": 1.7676242350717075e-05,
+                "17": 7.42085903766565e-05
+            },
+            "time": 86.36787962913513
+        },
+        {
+            "sample_num": "2",
+            "element_num": 4549,
+            "element_index": 3981,
+            "request": "{'prompt': '{} is known for performing', 'subject': 'Night Ark', 'target_new': {'str': 'sitcom'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 5.631384283333318e-06,
+                "14": 2.4608825697214343e-05,
+                "15": 3.461925371084362e-05,
+                "16": 1.922957926581148e-05,
+                "17": 7.657374226255342e-05
+            },
+            "time": 86.95296597480774
+        },
+        {
+            "sample_num": "2",
+            "element_num": 4599,
+            "element_index": 7747,
+            "request": "{'prompt': '{}, the', 'subject': 'Derek Paravicini', 'target_new': {'str': 'guitar'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 6.02854197495617e-06,
+                "14": 2.5327737603220157e-05,
+                "15": 3.510314127197489e-05,
+                "16": 1.9992801753687672e-05,
+                "17": 8.011058525880799e-05
+            },
+            "time": 85.85705327987671
+        }
+    ]
+}

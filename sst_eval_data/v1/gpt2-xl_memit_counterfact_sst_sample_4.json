@@ -1,0 +1,180 @@
+{
+    "original_model": {
+        "correct": 773,
+        "incorrect": 99,
+        "invalid": 0,
+        "total": 872
+    },
+    "sample_4": [
+        {
+            "sample_num": "4",
+            "element_index": 12245,
+            "request": "{'prompt': 'The headquarters of {} is in', 'subject': 'E-CO Energi', 'target_new': {'str': 'Ottawa'}}",
+            "correct": 772,
+            "incorrect": 100,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 6.308528099907562e-08,
+                "14": 7.419801306696172e-08,
+                "15": 9.054634375615933e-08,
+                "16": 1.2294276530155912e-07,
+                "17": 1.852937145940814e-07
+            },
+            "time": 87.22546815872192
+        },
+        {
+            "sample_num": "4",
+            "element_index": 7716,
+            "request": "{'prompt': '{}, a native', 'subject': 'Ann Scott', 'target_new': {'str': 'Croatian'}}",
+            "correct": 773,
+            "incorrect": 99,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 8.836676812506994e-08,
+                "14": 9.794591449008294e-08,
+                "15": 1.235606532645761e-07,
+                "16": 1.6971939942322933e-07,
+                "17": 2.505087479676149e-07
+            },
+            "time": 86.8636634349823
+        },
+        {
+            "sample_num": "4",
+            "element_index": 419,
+            "request": "{'prompt': 'The headquarter of {} is in', 'subject': 'Amirkabir University of Technology', 'target_new': {'str': 'Toronto'}}",
+            "correct": 773,
+            "incorrect": 99,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.0533307204241282e-07,
+                "14": 1.1568580049470256e-07,
+                "15": 1.4480310994713363e-07,
+                "16": 2.0194967476072634e-07,
+                "17": 2.979531927849166e-07
+            },
+            "time": 87.05683875083923
+        },
+        {
+            "sample_num": "4",
+            "element_index": 20697,
+            "request": "{'prompt': '{}, that was from', 'subject': 'Tenjho Tenge', 'target_new': {'str': 'France'}}",
+            "correct": 773,
+            "incorrect": 99,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.2727635123610526e-07,
+                "14": 1.361418640044576e-07,
+                "15": 1.691972926209928e-07,
+                "16": 2.2916846376119793e-07,
+                "17": 3.476086192222283e-07
+            },
+            "time": 86.63007402420044
+        },
+        {
+            "sample_num": "4",
+            "element_index": 10586,
+            "request": "{'prompt': '{}, created by', 'subject': 'Honda HR-V', 'target_new': {'str': 'Nissan'}}",
+            "correct": 774,
+            "incorrect": 98,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.4096708866873087e-07,
+                "14": 1.505638778098728e-07,
+                "15": 1.8935969592348556e-07,
+                "16": 2.5185181584674865e-07,
+                "17": 3.856922603517887e-07
+            },
+            "time": 89.21707391738892
+        },
+        {
+            "sample_num": "4",
+            "element_index": 14866,
+            "request": "{'prompt': '{}, a citizen of', 'subject': 'Marcus Thrane', 'target_new': {'str': 'Belgium'}}",
+            "correct": 775,
+            "incorrect": 97,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.5487485427456704e-07,
+                "14": 1.6310785611040046e-07,
+                "15": 2.047586207254426e-07,
+                "16": 2.710487763124547e-07,
+                "17": 4.1700860720084165e-07
+            },
+            "time": 86.48583722114563
+        },
+        {
+            "sample_num": "4",
+            "element_index": 479,
+            "request": "{'prompt': 'The official religion of {} is', 'subject': 'John Travolta', 'target_new': {'str': 'Islam'}}",
+            "correct": 776,
+            "incorrect": 96,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.63891726856491e-07,
+                "14": 1.7412773445357743e-07,
+                "15": 2.1817646711497218e-07,
+                "16": 2.876064399970346e-07,
+                "17": 4.5019928052170144e-07
+            },
+            "time": 86.56767582893372
+        },
+        {
+            "sample_num": "4",
+            "element_index": 7929,
+            "request": "{'prompt': '{} is headquartered in', 'subject': 'Stelco', 'target_new': {'str': 'Toronto'}}",
+            "correct": 776,
+            "incorrect": 96,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.728789129629149e-07,
+                "14": 1.8549964408975939e-07,
+                "15": 2.320067693517558e-07,
+                "16": 3.0397558248296264e-07,
+                "17": 4.75780467468212e-07
+            },
+            "time": 86.50195026397705
+        },
+        {
+            "sample_num": "4",
+            "element_index": 4788,
+            "request": "{'prompt': 'The official religion of {} is', 'subject': \"Isma'il ibn Jafar\", 'target_new': {'str': 'Judaism'}}",
+            "correct": 776,
+            "incorrect": 96,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.819282431370084e-07,
+                "14": 1.9799840345058328e-07,
+                "15": 2.4568549861214706e-07,
+                "16": 3.2156930274140905e-07,
+                "17": 5.031165528635029e-07
+            },
+            "time": 87.06223773956299
+        },
+        {
+            "sample_num": "4",
+            "element_index": 8567,
+            "request": "{'prompt': '{} is developed by', 'subject': 'Volvo S80', 'target_new': {'str': 'Chrysler'}}",
+            "correct": 776,
+            "incorrect": 96,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.9228006920002372e-07,
+                "14": 2.1105000769239268e-07,
+                "15": 2.6158423338529246e-07,
+                "16": 3.404671247153601e-07,
+                "17": 5.428856866274145e-07
+            },
+            "time": 86.71288895606995
+        }
+    ]
+}

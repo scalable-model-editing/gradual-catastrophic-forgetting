@@ -1,0 +1,112 @@
+{
+    "original_model": {
+        "correct": 773,
+        "incorrect": 99,
+        "invalid": 0,
+        "total": 872
+    },
+    "sample_6": [
+        {
+            "sample_num": "6",
+            "element_index": 8572,
+            "request": "{'prompt': '{} was created in', 'subject': 'Deewaar', 'target_new': {'str': 'Italy'}}",
+            "correct": 773,
+            "incorrect": 99,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 5.986385787082327e-08,
+                "14": 5.939908120922155e-08,
+                "15": 7.54249214196534e-08,
+                "16": 9.183389693134814e-08,
+                "17": 1.5669532160700328e-07
+            },
+            "time": 88.53086161613464
+        },
+        {
+            "sample_num": "6",
+            "element_index": 10428,
+            "request": "{'prompt': '{}, a native', 'subject': 'Jean-Baptiste Say', 'target_new': {'str': 'English'}}",
+            "correct": 773,
+            "incorrect": 99,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 9.257322375333388e-08,
+                "14": 9.841865988846621e-08,
+                "15": 1.0905249325787736e-07,
+                "16": 1.4271044790348242e-07,
+                "17": 2.437118098441715e-07
+            },
+            "time": 87.74548029899597
+        },
+        {
+            "sample_num": "6",
+            "element_index": 14284,
+            "request": "{'prompt': '{}, that originated in', 'subject': 'Nach Baliye', 'target_new': {'str': 'Japan'}}",
+            "correct": 773,
+            "incorrect": 99,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.1200306460068532e-07,
+                "14": 1.2039193109103508e-07,
+                "15": 1.378221696768378e-07,
+                "16": 1.8115424893494492e-07,
+                "17": 3.0803644790466933e-07
+            },
+            "time": 87.40761804580688
+        },
+        {
+            "sample_num": "6",
+            "element_index": 19214,
+            "request": "{'prompt': 'The original language of {} is', 'subject': 'The Immoralist', 'target_new': {'str': 'English'}}",
+            "correct": 774,
+            "incorrect": 98,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.2793343273642677e-07,
+                "14": 1.4040918472346675e-07,
+                "15": 1.663052984213209e-07,
+                "16": 2.1365815427998314e-07,
+                "17": 3.6448287232815346e-07
+            },
+            "time": 87.5419487953186
+        },
+        {
+            "sample_num": "6",
+            "element_index": 17268,
+            "request": "{'prompt': '{}, created by', 'subject': 'Clang', 'target_new': {'str': 'IBM'}}",
+            "correct": 774,
+            "incorrect": 98,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.3642610952047107e-07,
+                "14": 1.4968819073146733e-07,
+                "15": 1.7743310820605984e-07,
+                "16": 2.2651137498996832e-07,
+                "17": 3.8134359670038975e-07
+            },
+            "time": 86.15812373161316
+        },
+        {
+            "sample_num": "6",
+            "element_index": 11107,
+            "request": "{'prompt': '{}, playing the', 'subject': 'Valery Sigalevitch', 'target_new': {'str': 'trumpet'}}",
+            "correct": 774,
+            "incorrect": 98,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.468413159955162e-07,
+                "14": 1.6322195506290882e-07,
+                "15": 1.923878443221838e-07,
+                "16": 2.451095042488305e-07,
+                "17": 4.09469549822461e-07
+            },
+            "time": 87.58793115615845
+        }
+    ]
+}

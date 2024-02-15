@@ -1,0 +1,197 @@
+{
+    "original_model": {
+        "correct": 773,
+        "incorrect": 99,
+        "invalid": 0,
+        "total": 872
+    },
+    "sample_1": [
+        {
+            "sample_num": "1",
+            "element_index": 10172,
+            "request": "{'prompt': 'The original language of {} is', 'subject': 'Run, Man, Run!', 'target_new': {'str': 'English'}}",
+            "correct": 772,
+            "incorrect": 100,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 5.60931106008411e-08,
+                "14": 7.214465824745275e-08,
+                "15": 8.328991896178195e-08,
+                "16": 1.229102082334066e-07,
+                "17": 2.3323738673752814e-07
+            },
+            "time": 86.33776688575745
+        },
+        {
+            "sample_num": "1",
+            "element_index": 760,
+            "request": "{'prompt': 'The headquarters of {} is in', 'subject': 'Artnet', 'target_new': {'str': 'Hayward'}}",
+            "correct": 772,
+            "incorrect": 100,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 8.713535493143354e-08,
+                "14": 1.0516479420630276e-07,
+                "15": 1.2312013097925956e-07,
+                "16": 1.6355225795905426e-07,
+                "17": 2.834191832334909e-07
+            },
+            "time": 87.41742420196533
+        },
+        {
+            "sample_num": "1",
+            "element_index": 1584,
+            "request": "{'prompt': 'The expertise of {} is', 'subject': 'Kamil Zvelebil', 'target_new': {'str': 'manga'}}",
+            "correct": 771,
+            "incorrect": 101,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.0437285169473398e-07,
+                "14": 1.258532478232155e-07,
+                "15": 1.469673236442759e-07,
+                "16": 2.0385144239298825e-07,
+                "17": 3.3413368782930775e-07
+            },
+            "time": 86.91021776199341
+        },
+        {
+            "sample_num": "1",
+            "element_index": 21160,
+            "request": "{'prompt': '{} lost their life at', 'subject': 'Heinrich Joseph von Collin', 'target_new': {'str': 'Melbourne'}}",
+            "correct": 771,
+            "incorrect": 101,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.1981315140019433e-07,
+                "14": 1.4166586481678678e-07,
+                "15": 1.699128659993221e-07,
+                "16": 2.308452735633182e-07,
+                "17": 3.7538086417043814e-07
+            },
+            "time": 87.13237261772156
+        },
+        {
+            "sample_num": "1",
+            "element_index": 9993,
+            "request": "{'prompt': '{} follows the religion of', 'subject': 'Anwar el Sadat', 'target_new': {'str': 'Christianity'}}",
+            "correct": 772,
+            "incorrect": 100,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.353944867332757e-07,
+                "14": 1.5628540950274328e-07,
+                "15": 1.869533576837057e-07,
+                "16": 2.540344326007471e-07,
+                "17": 4.0504963294552e-07
+            },
+            "time": 86.57259106636047
+        },
+        {
+            "sample_num": "1",
+            "element_index": 21388,
+            "request": "{'prompt': '{} was originally aired on', 'subject': 'The Morey Amsterdam Show', 'target_new': {'str': 'ESPN'}}",
+            "correct": 773,
+            "incorrect": 99,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.4629397071530548e-07,
+                "14": 1.6929442381297122e-07,
+                "15": 2.0240632636614464e-07,
+                "16": 2.7759296017393353e-07,
+                "17": 4.3863363430318714e-07
+            },
+            "time": 86.45087051391602
+        },
+        {
+            "sample_num": "1",
+            "element_index": 12104,
+            "request": "{'prompt': \"{}'s profession is a\", 'subject': 'Roger Pigaut', 'target_new': {'str': 'astronaut'}}",
+            "correct": 772,
+            "incorrect": 100,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.586545863574429e-07,
+                "14": 1.819144017645158e-07,
+                "15": 2.2054310022667778e-07,
+                "16": 2.9910219723205955e-07,
+                "17": 4.730964349164424e-07
+            },
+            "time": 85.94318556785583
+        },
+        {
+            "sample_num": "1",
+            "element_index": 10344,
+            "request": "{'prompt': '{} is in', 'subject': 'Byrd Station', 'target_new': {'str': 'Europe'}}",
+            "correct": 771,
+            "incorrect": 101,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.7116984452059114e-07,
+                "14": 1.9138455797929055e-07,
+                "15": 2.341181186693575e-07,
+                "16": 3.171333275986399e-07,
+                "17": 5.10886764004681e-07
+            },
+            "time": 86.85668683052063
+        },
+        {
+            "sample_num": "1",
+            "element_index": 20842,
+            "request": "{'prompt': '{} originated in', 'subject': 'Rothmans International', 'target_new': {'str': 'Toronto'}}",
+            "correct": 773,
+            "incorrect": 99,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.7974335264625552e-07,
+                "14": 2.0289448343646654e-07,
+                "15": 2.511011416572728e-07,
+                "16": 3.3845697089418536e-07,
+                "17": 5.474929594129208e-07
+            },
+            "time": 86.79608917236328
+        },
+        {
+            "sample_num": "1",
+            "element_index": 9722,
+            "request": "{'prompt': '{}, who plays the position', 'subject': 'Doug Buffone', 'target_new': {'str': 'midfielder'}}",
+            "correct": 772,
+            "incorrect": 100,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.8851895333682478e-07,
+                "14": 2.1218012591361912e-07,
+                "15": 2.6424336851960106e-07,
+                "16": 3.56370776444237e-07,
+                "17": 5.745529279010952e-07
+            },
+            "time": 86.34356355667114
+        },
+        {
+            "sample_num": "1",
+            "element_index": 15266,
+            "request": "{'prompt': '{} holds a citizenship from', 'subject': 'Bassekou Kouyate', 'target_new': {'str': 'Canada'}}",
+            "correct": 770,
+            "incorrect": 102,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.9878952173257858e-07,
+                "14": 2.2129718502128526e-07,
+                "15": 2.731374024733668e-07,
+                "16": 3.6910040535076405e-07,
+                "17": 5.970514962427842e-07
+            },
+            "time": 86.12518858909607
+        }
+    ]
+}

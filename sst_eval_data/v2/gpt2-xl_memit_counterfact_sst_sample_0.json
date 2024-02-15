@@ -1,0 +1,1630 @@
+{
+    "original_model": {
+        "correct": 773,
+        "incorrect": 99,
+        "invalid": 0,
+        "total": 872
+    },
+    "sample_0": [
+        {
+            "sample_num": "0",
+            "element_num": 49,
+            "element_index": 8485,
+            "request": "{'prompt': '{}, a product of', 'subject': 'Microsoft Macro Assembler', 'target_new': {'str': 'IBM'}}",
+            "correct": 770,
+            "incorrect": 102,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 4.3887004608222924e-07,
+                "14": 4.773229420607095e-07,
+                "15": 5.94067955717037e-07,
+                "16": 7.889960897955461e-07,
+                "17": 1.2357324976619566e-06
+            },
+            "time": 86.2038962841034
+        },
+        {
+            "sample_num": "0",
+            "element_num": 99,
+            "element_index": 10494,
+            "request": "{'prompt': '{} is located in', 'subject': 'Abbey of Echternach', 'target_new': {'str': 'India'}}",
+            "correct": 763,
+            "incorrect": 109,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 6.133743681857595e-07,
+                "14": 6.780904868719517e-07,
+                "15": 8.52594212119584e-07,
+                "16": 1.1212995332243736e-06,
+                "17": 1.7828754153015325e-06
+            },
+            "time": 87.74780917167664
+        },
+        {
+            "sample_num": "0",
+            "element_num": 149,
+            "element_index": 6792,
+            "request": "{'prompt': '{} is follower of', 'subject': 'Eid al-Fitr', 'target_new': {'str': 'Christianity'}}",
+            "correct": 749,
+            "incorrect": 123,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 7.466423994628713e-07,
+                "14": 8.25338020149502e-07,
+                "15": 1.0355009862905717e-06,
+                "16": 1.3679336916538887e-06,
+                "17": 2.1761059088021284e-06
+            },
+            "time": 87.47980332374573
+        },
+        {
+            "sample_num": "0",
+            "element_num": 199,
+            "element_index": 18074,
+            "request": "{'prompt': '{} speaks the language', 'subject': 'Jacques Poulin', 'target_new': {'str': 'Spanish'}}",
+            "correct": 743,
+            "incorrect": 129,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 8.653088912069506e-07,
+                "14": 9.566482503942098e-07,
+                "15": 1.1978030443060561e-06,
+                "16": 1.587821657267341e-06,
+                "17": 2.531890004320303e-06
+            },
+            "time": 87.49847531318665
+        },
+        {
+            "sample_num": "0",
+            "element_num": 249,
+            "element_index": 17377,
+            "request": "{'prompt': 'The twin city of {} is', 'subject': 'Marseille', 'target_new': {'str': 'Paris'}}",
+            "correct": 730,
+            "incorrect": 142,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 9.7283066224918e-07,
+                "14": 1.0814978850248735e-06,
+                "15": 1.3525427675631363e-06,
+                "16": 1.7969332475331612e-06,
+                "17": 2.874197662094957e-06
+            },
+            "time": 87.4578595161438
+        },
+        {
+            "sample_num": "0",
+            "element_num": 299,
+            "element_index": 4831,
+            "request": "{'prompt': '{}, speaker of', 'subject': 'Pierre Bourdieu', 'target_new': {'str': 'English'}}",
+            "correct": 711,
+            "incorrect": 161,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.073348016689124e-06,
+                "14": 1.1929928405152168e-06,
+                "15": 1.492105639044894e-06,
+                "16": 1.982923777177348e-06,
+                "17": 3.1807624054636108e-06
+            },
+            "time": 86.8958306312561
+        },
+        {
+            "sample_num": "0",
+            "element_num": 349,
+            "element_index": 15158,
+            "request": "{'prompt': '{} plays', 'subject': 'Geggy Tah', 'target_new': {'str': 'sitcom'}}",
+            "correct": 690,
+            "incorrect": 182,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.1527641845532344e-06,
+                "14": 1.2846451227233047e-06,
+                "15": 1.6066262560343603e-06,
+                "16": 2.141601498806267e-06,
+                "17": 3.4337524539296282e-06
+            },
+            "time": 87.52633476257324
+        },
+        {
+            "sample_num": "0",
+            "element_num": 399,
+            "element_index": 16461,
+            "request": "{'prompt': '{} debuted on', 'subject': 'Garfield and Friends', 'target_new': {'str': 'CNN'}}",
+            "correct": 678,
+            "incorrect": 194,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.2348415339147323e-06,
+                "14": 1.371551775264379e-06,
+                "15": 1.7176450910483254e-06,
+                "16": 2.2883805286255665e-06,
+                "17": 3.6714961879624752e-06
+            },
+            "time": 86.59179329872131
+        },
+        {
+            "sample_num": "0",
+            "element_num": 449,
+            "element_index": 7614,
+            "request": "{'prompt': '{}, which is located in', 'subject': 'Atwell Peak', 'target_new': {'str': 'Italy'}}",
+            "correct": 665,
+            "incorrect": 207,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.3132114418112906e-06,
+                "14": 1.4618804016208742e-06,
+                "15": 1.8254564793096506e-06,
+                "16": 2.432769633742282e-06,
+                "17": 3.914826265827287e-06
+            },
+            "time": 86.38919806480408
+        },
+        {
+            "sample_num": "0",
+            "element_num": 499,
+            "element_index": 11852,
+            "request": "{'prompt': '{} has a citizenship from', 'subject': 'Chico Buarque', 'target_new': {'str': 'Canada'}}",
+            "correct": 622,
+            "incorrect": 250,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.3789551758236485e-06,
+                "14": 1.5344069197453791e-06,
+                "15": 1.9170768155163387e-06,
+                "16": 2.5556478249200154e-06,
+                "17": 4.132118647248717e-06
+            },
+            "time": 86.60270595550537
+        },
+        {
+            "sample_num": "0",
+            "element_num": 549,
+            "element_index": 11884,
+            "request": "{'prompt': '{} plays in the position of', 'subject': 'Junior Stanislas', 'target_new': {'str': 'outfielder'}}",
+            "correct": 603,
+            "incorrect": 269,
+            "invalid": 0,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.440472715330543e-06,
+                "14": 1.6004096323740669e-06,
+                "15": 2.0029820007039234e-06,
+                "16": 2.669722334758262e-06,
+                "17": 4.314295438234694e-06
+            },
+            "time": 87.65304183959961
+        },
+        {
+            "sample_num": "0",
+            "element_num": 599,
+            "element_index": 3057,
+            "request": "{'prompt': '{} worked in the city of', 'subject': 'Robert Grosvenor, 1st Baron Ebury', 'target_new': {'str': 'Paris'}}",
+            "correct": 610,
+            "incorrect": 261,
+            "invalid": 1,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.5041572396512493e-06,
+                "14": 1.6709576584617025e-06,
+                "15": 2.0921152099617757e-06,
+                "16": 2.7833561944135e-06,
+                "17": 4.503473064687569e-06
+            },
+            "time": 86.78853011131287
+        },
+        {
+            "sample_num": "0",
+            "element_num": 649,
+            "element_index": 16963,
+            "request": "{'prompt': '{} is employed by', 'subject': 'John Craven', 'target_new': {'str': 'ESPN'}}",
+            "correct": 605,
+            "incorrect": 266,
+            "invalid": 1,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.566056084811862e-06,
+                "14": 1.740987954690354e-06,
+                "15": 2.1799842215841636e-06,
+                "16": 2.9000354970776243e-06,
+                "17": 4.702179012383567e-06
+            },
+            "time": 86.7697901725769
+        },
+        {
+            "sample_num": "0",
+            "element_num": 699,
+            "element_index": 19353,
+            "request": "{'prompt': '{} is affiliated with', 'subject': 'Lithuania', 'target_new': {'str': 'FIFA'}}",
+            "correct": 569,
+            "incorrect": 302,
+            "invalid": 1,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.61956882038794e-06,
+                "14": 1.8034502318187151e-06,
+                "15": 2.2596509552386124e-06,
+                "16": 3.0100950425548945e-06,
+                "17": 4.893358891422395e-06
+            },
+            "time": 87.48811459541321
+        },
+        {
+            "sample_num": "0",
+            "element_num": 749,
+            "element_index": 8427,
+            "request": "{'prompt': 'The mother tongue of {} is', 'subject': 'Jan Davidsz. de Heem', 'target_new': {'str': 'Russian'}}",
+            "correct": 531,
+            "incorrect": 339,
+            "invalid": 2,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.6685301034158329e-06,
+                "14": 1.8624433550940012e-06,
+                "15": 2.332013082195772e-06,
+                "16": 3.1097531518753385e-06,
+                "17": 5.072524800198153e-06
+            },
+            "time": 87.79127717018127
+        },
+        {
+            "sample_num": "0",
+            "element_num": 799,
+            "element_index": 4184,
+            "request": "{'prompt': '{}, which was named for', 'subject': 'Naples International Airport', 'target_new': {'str': 'Sweden'}}",
+            "correct": 508,
+            "incorrect": 362,
+            "invalid": 2,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.712369339657016e-06,
+                "14": 1.9186625195288798e-06,
+                "15": 2.4033799945755163e-06,
+                "16": 3.2084005852084374e-06,
+                "17": 5.254312782199122e-06
+            },
+            "time": 88.05636358261108
+        },
+        {
+            "sample_num": "0",
+            "element_num": 849,
+            "element_index": 16529,
+            "request": "{'prompt': '{} is native to', 'subject': 'Ethel Griffies', 'target_new': {'str': 'Moscow'}}",
+            "correct": 508,
+            "incorrect": 361,
+            "invalid": 3,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.7655195279075997e-06,
+                "14": 1.9734893612621818e-06,
+                "15": 2.480603825461003e-06,
+                "16": 3.298493766124011e-06,
+                "17": 5.410484391177306e-06
+            },
+            "time": 85.991952419281
+        },
+        {
+            "sample_num": "0",
+            "element_num": 899,
+            "element_index": 10371,
+            "request": "{'prompt': '{} is to debut on', 'subject': 'Good Times', 'target_new': {'str': 'NBC'}}",
+            "correct": 502,
+            "incorrect": 367,
+            "invalid": 3,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.8091003539666417e-06,
+                "14": 2.021568889176706e-06,
+                "15": 2.539640263421461e-06,
+                "16": 3.3751716728147585e-06,
+                "17": 5.541384325624676e-06
+            },
+            "time": 86.64116740226746
+        },
+        {
+            "sample_num": "0",
+            "element_num": 949,
+            "element_index": 6172,
+            "request": "{'prompt': 'The language of {} is', 'subject': 'The Glass Agency', 'target_new': {'str': 'English'}}",
+            "correct": 490,
+            "incorrect": 379,
+            "invalid": 3,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.8464171489540604e-06,
+                "14": 2.063244892269722e-06,
+                "15": 2.594872967165429e-06,
+                "16": 3.448868028499419e-06,
+                "17": 5.66416520086932e-06
+            },
+            "time": 86.46499514579773
+        },
+        {
+            "sample_num": "0",
+            "element_num": 999,
+            "element_index": 5738,
+            "request": "{'prompt': 'In {}, they understand', 'subject': 'Turku', 'target_new': {'str': 'English'}}",
+            "correct": 474,
+            "incorrect": 396,
+            "invalid": 2,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.8760712237053667e-06,
+                "14": 2.0977738586225314e-06,
+                "15": 2.6375973902759142e-06,
+                "16": 3.5077653137705056e-06,
+                "17": 5.7730594562599435e-06
+            },
+            "time": 86.67585849761963
+        },
+        {
+            "sample_num": "0",
+            "element_num": 1049,
+            "element_index": 1481,
+            "request": "{'prompt': '{} is in', 'subject': 'Hollywood Reel Independent Film Festival', 'target_new': {'str': 'Edmonton'}}",
+            "correct": 460,
+            "incorrect": 408,
+            "invalid": 4,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.9073975181527203e-06,
+                "14": 2.1344167180359364e-06,
+                "15": 2.6848424568015616e-06,
+                "16": 3.5692205528903287e-06,
+                "17": 5.885402060812339e-06
+            },
+            "time": 86.09737253189087
+        },
+        {
+            "sample_num": "0",
+            "element_num": 1099,
+            "element_index": 11813,
+            "request": "{'prompt': '{} is a product of', 'subject': 'BMW Z1', 'target_new': {'str': 'Toyota'}}",
+            "correct": 456,
+            "incorrect": 410,
+            "invalid": 6,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.9438020899542607e-06,
+                "14": 2.175618874389329e-06,
+                "15": 2.7369303552404745e-06,
+                "16": 3.643556510724011e-06,
+                "17": 6.021871740813367e-06
+            },
+            "time": 86.89300918579102
+        },
+        {
+            "sample_num": "0",
+            "element_num": 1149,
+            "element_index": 7662,
+            "request": "{'prompt': '{} works for', 'subject': 'Wietse Venema', 'target_new': {'str': 'BBC'}}",
+            "correct": 452,
+            "incorrect": 413,
+            "invalid": 7,
+            "total": 872,
+            "distance_from_original": {
+                "13": 1.979270336960326e-06,
+                "14": 2.213341076640063e-06,
+                "15": 2.787435050777276e-06,
+                "16": 3.710599230544176e-06,
+                "17": 6.15286535321502e-06
+            },
+            "time": 88.07007503509521
+        },
+        {
+            "sample_num": "0",
+            "element_num": 1199,
+            "element_index": 8594,
+            "request": "{'prompt': 'The twin city of {} is', 'subject': 'Ankara', 'target_new': {'str': 'Ankara'}}",
+            "correct": 449,
+            "incorrect": 416,
+            "invalid": 7,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.0074762687727343e-06,
+                "14": 2.245514224341605e-06,
+                "15": 2.8284061954764184e-06,
+                "16": 3.7633860756614013e-06,
+                "17": 6.256218057387741e-06
+            },
+            "time": 85.70325708389282
+        },
+        {
+            "sample_num": "0",
+            "element_num": 1249,
+            "element_index": 7444,
+            "request": "{'prompt': '{} speaks', 'subject': 'Sharof Rashidov', 'target_new': {'str': 'German'}}",
+            "correct": 444,
+            "incorrect": 417,
+            "invalid": 11,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.036471869359957e-06,
+                "14": 2.2800911665399326e-06,
+                "15": 2.87160332845815e-06,
+                "16": 3.8219045563891996e-06,
+                "17": 6.3565425989509095e-06
+            },
+            "time": 85.66950964927673
+        },
+        {
+            "sample_num": "0",
+            "element_num": 1299,
+            "element_index": 21169,
+            "request": "{'prompt': '{}, the', 'subject': 'Emilio Pujol', 'target_new': {'str': 'piano'}}",
+            "correct": 445,
+            "incorrect": 415,
+            "invalid": 12,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.0652189505199203e-06,
+                "14": 2.3139950826589484e-06,
+                "15": 2.9128270853107097e-06,
+                "16": 3.880012172885472e-06,
+                "17": 6.459981705120299e-06
+            },
+            "time": 85.94624304771423
+        },
+        {
+            "sample_num": "0",
+            "element_num": 1349,
+            "element_index": 12705,
+            "request": "{'prompt': 'Where is {}? It is located in', 'subject': 'HollyShorts Film Festival', 'target_new': {'str': 'Belfast'}}",
+            "correct": 447,
+            "incorrect": 413,
+            "invalid": 12,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.0955521904397756e-06,
+                "14": 2.3496386347687803e-06,
+                "15": 2.955896434286842e-06,
+                "16": 3.939614089176757e-06,
+                "17": 6.570233381353319e-06
+            },
+            "time": 85.90183138847351
+        },
+        {
+            "sample_num": "0",
+            "element_num": 1399,
+            "element_index": 3969,
+            "request": "{'prompt': '{} is a citizen of', 'subject': 'Erwin Wurm', 'target_new': {'str': 'Ireland'}}",
+            "correct": 449,
+            "incorrect": 414,
+            "invalid": 9,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.1249718429317e-06,
+                "14": 2.3817005967430305e-06,
+                "15": 2.9965758585603908e-06,
+                "16": 3.992710844613612e-06,
+                "17": 6.671507435385138e-06
+            },
+            "time": 86.96129703521729
+        },
+        {
+            "sample_num": "0",
+            "element_num": 1449,
+            "element_index": 12783,
+            "request": "{'prompt': '{} performs', 'subject': 'Chiaroscuro Records', 'target_new': {'str': 'fantasy'}}",
+            "correct": 448,
+            "incorrect": 410,
+            "invalid": 14,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.1520595510082785e-06,
+                "14": 2.4120347461575875e-06,
+                "15": 3.0371152206498664e-06,
+                "16": 4.050535608257633e-06,
+                "17": 6.794618002459174e-06
+            },
+            "time": 86.24598002433777
+        },
+        {
+            "sample_num": "0",
+            "element_num": 1499,
+            "element_index": 19372,
+            "request": "{'prompt': '{} is from', 'subject': 'Winnipeg Route 42', 'target_new': {'str': 'Prague'}}",
+            "correct": 448,
+            "incorrect": 405,
+            "invalid": 19,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.1808218662044965e-06,
+                "14": 2.4437904357910156e-06,
+                "15": 3.0794251415500185e-06,
+                "16": 4.108198481844738e-06,
+                "17": 6.913460765645141e-06
+            },
+            "time": 85.49672508239746
+        },
+        {
+            "sample_num": "0",
+            "element_num": 1549,
+            "element_index": 1783,
+            "request": "{'prompt': 'What is the twin city of {}? It is', 'subject': 'Abu Dhabi', 'target_new': {'str': 'Moscow'}}",
+            "correct": 454,
+            "incorrect": 399,
+            "invalid": 19,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.2069141323299846e-06,
+                "14": 2.4733606096560834e-06,
+                "15": 3.1161271181190386e-06,
+                "16": 4.1584235077607445e-06,
+                "17": 7.004075996519532e-06
+            },
+            "time": 86.81861305236816
+        },
+        {
+            "sample_num": "0",
+            "element_num": 1599,
+            "element_index": 347,
+            "request": "{'prompt': '{}, who plays the position', 'subject': 'Tarvaris Jackson', 'target_new': {'str': 'goaltender'}}",
+            "correct": 448,
+            "incorrect": 406,
+            "invalid": 18,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.236825366708217e-06,
+                "14": 2.5071103664231487e-06,
+                "15": 3.1578115340380464e-06,
+                "16": 4.217723926558392e-06,
+                "17": 7.129377081582788e-06
+            },
+            "time": 86.68058228492737
+        },
+        {
+            "sample_num": "0",
+            "element_num": 1649,
+            "element_index": 2482,
+            "request": "{'prompt': '{} is located in', 'subject': 'Narman', 'target_new': {'str': 'Egypt'}}",
+            "correct": 445,
+            "incorrect": 403,
+            "invalid": 24,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.269685865030624e-06,
+                "14": 2.5459717107878532e-06,
+                "15": 3.2067969186755363e-06,
+                "16": 4.281160727259703e-06,
+                "17": 7.260971869982313e-06
+            },
+            "time": 87.13309717178345
+        },
+        {
+            "sample_num": "0",
+            "element_num": 1699,
+            "element_index": 18469,
+            "request": "{'prompt': '{}, by', 'subject': 'Fraport Arena', 'target_new': {'str': 'Leonardo'}}",
+            "correct": 436,
+            "incorrect": 408,
+            "invalid": 28,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.300777168784407e-06,
+                "14": 2.5801891752053052e-06,
+                "15": 3.253157274230034e-06,
+                "16": 4.346780315245269e-06,
+                "17": 7.4001800385303795e-06
+            },
+            "time": 86.48726534843445
+        },
+        {
+            "sample_num": "0",
+            "element_num": 1749,
+            "element_index": 21508,
+            "request": "{'prompt': '{} took up work in', 'subject': 'Alfred Flechtheim', 'target_new': {'str': 'London'}}",
+            "correct": 430,
+            "incorrect": 408,
+            "invalid": 34,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.3301538476516725e-06,
+                "14": 2.6121535938727902e-06,
+                "15": 3.2967652714432916e-06,
+                "16": 4.40774465459981e-06,
+                "17": 7.5221983024675865e-06
+            },
+            "time": 86.71711087226868
+        },
+        {
+            "sample_num": "0",
+            "element_num": 1799,
+            "element_index": 14472,
+            "request": "{'prompt': '{}, the', 'subject': 'Jeff Reese', 'target_new': {'str': 'midfielder'}}",
+            "correct": 426,
+            "incorrect": 411,
+            "invalid": 35,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.3542274902865756e-06,
+                "14": 2.6393295229354408e-06,
+                "15": 3.3330331916658906e-06,
+                "16": 4.460338914213935e-06,
+                "17": 7.640094736416359e-06
+            },
+            "time": 87.37713027000427
+        },
+        {
+            "sample_num": "0",
+            "element_num": 1849,
+            "element_index": 19169,
+            "request": "{'prompt': 'The language of {} was', 'subject': 'Menaechmi', 'target_new': {'str': 'Icelandic'}}",
+            "correct": 430,
+            "incorrect": 404,
+            "invalid": 38,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.378844556005788e-06,
+                "14": 2.6673128559195902e-06,
+                "15": 3.3705300666042604e-06,
+                "16": 4.514153715717839e-06,
+                "17": 7.761081178614404e-06
+            },
+            "time": 86.88238096237183
+        },
+        {
+            "sample_num": "0",
+            "element_num": 1899,
+            "element_index": 10279,
+            "request": "{'prompt': \"{}'s life ended in\", 'subject': 'Samuil Marshak', 'target_new': {'str': 'Rome'}}",
+            "correct": 425,
+            "incorrect": 404,
+            "invalid": 43,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.4055423182289815e-06,
+                "14": 2.6984632768289885e-06,
+                "15": 3.411693796806503e-06,
+                "16": 4.572083525999915e-06,
+                "17": 7.887929314165376e-06
+            },
+            "time": 86.35609030723572
+        },
+        {
+            "sample_num": "0",
+            "element_num": 1949,
+            "element_index": 13613,
+            "request": "{'prompt': '{}, who plays the position', 'subject': 'Jim Sorgi', 'target_new': {'str': 'midfielder'}}",
+            "correct": 434,
+            "incorrect": 404,
+            "invalid": 34,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.4287812721013324e-06,
+                "14": 2.7262910862191347e-06,
+                "15": 3.4493982639105525e-06,
+                "16": 4.631919637176907e-06,
+                "17": 8.019191227504052e-06
+            },
+            "time": 86.30308556556702
+        },
+        {
+            "sample_num": "0",
+            "element_num": 1999,
+            "element_index": 8677,
+            "request": "{'prompt': '{} passed away in', 'subject': 'Gilles Marie Oppenord', 'target_new': {'str': 'Chicago'}}",
+            "correct": 437,
+            "incorrect": 402,
+            "invalid": 33,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.454138211760437e-06,
+                "14": 2.7548635443963576e-06,
+                "15": 3.48778394254623e-06,
+                "16": 4.688198714575265e-06,
+                "17": 8.155797331710346e-06
+            },
+            "time": 86.60610008239746
+        },
+        {
+            "sample_num": "0",
+            "element_num": 2049,
+            "element_index": 7912,
+            "request": "{'prompt': '{} holds a citizenship from', 'subject': 'Suryavarman I', 'target_new': {'str': 'Japan'}}",
+            "correct": 432,
+            "incorrect": 402,
+            "invalid": 38,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.4751741420914186e-06,
+                "14": 2.7797291295428295e-06,
+                "15": 3.522771976349759e-06,
+                "16": 4.74657463200856e-06,
+                "17": 8.29813325253781e-06
+            },
+            "time": 86.76817774772644
+        },
+        {
+            "sample_num": "0",
+            "element_num": 2099,
+            "element_index": 18334,
+            "request": "{'prompt': '{} is native to', 'subject': 'Michael Ballhaus', 'target_new': {'str': 'Vienna'}}",
+            "correct": 436,
+            "incorrect": 395,
+            "invalid": 41,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.4976400254672626e-06,
+                "14": 2.80578683486965e-06,
+                "15": 3.5611628845799714e-06,
+                "16": 4.810110567632364e-06,
+                "17": 8.455157512798905e-06
+            },
+            "time": 86.07663559913635
+        },
+        {
+            "sample_num": "0",
+            "element_num": 2149,
+            "element_index": 14789,
+            "request": "{'prompt': '{} worked in the city of', 'subject': 'Pino Rauti', 'target_new': {'str': 'London'}}",
+            "correct": 433,
+            "incorrect": 394,
+            "invalid": 45,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.5220278985216282e-06,
+                "14": 2.8340280096017523e-06,
+                "15": 3.5983223369839834e-06,
+                "16": 4.875323156738887e-06,
+                "17": 8.633084689790849e-06
+            },
+            "time": 86.78655672073364
+        },
+        {
+            "sample_num": "0",
+            "element_num": 2199,
+            "element_index": 5260,
+            "request": "{'prompt': '{}, a native', 'subject': 'Coralie Trinh Thi', 'target_new': {'str': 'Dutch'}}",
+            "correct": 420,
+            "incorrect": 395,
+            "invalid": 57,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.5460938104515662e-06,
+                "14": 2.8636416118388297e-06,
+                "15": 3.6416906823433237e-06,
+                "16": 4.965208518115105e-06,
+                "17": 8.84196469996823e-06
+            },
+            "time": 86.41149663925171
+        },
+        {
+            "sample_num": "0",
+            "element_num": 2249,
+            "element_index": 11743,
+            "request": "{'prompt': '{}, created in', 'subject': 'Bamboo Shoots', 'target_new': {'str': 'Seattle'}}",
+            "correct": 427,
+            "incorrect": 385,
+            "invalid": 60,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.569536263763439e-06,
+                "14": 2.8924494017701363e-06,
+                "15": 3.684348939714255e-06,
+                "16": 5.055505880591227e-06,
+                "17": 9.069010957318824e-06
+            },
+            "time": 86.5113754272461
+        },
+        {
+            "sample_num": "0",
+            "element_num": 2299,
+            "element_index": 2444,
+            "request": "{'prompt': 'The language of {} is', 'subject': 'Black God, White Devil', 'target_new': {'str': 'Russian'}}",
+            "correct": 438,
+            "incorrect": 365,
+            "invalid": 69,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.5957801881304476e-06,
+                "14": 2.923716920122388e-06,
+                "15": 3.7264189813868143e-06,
+                "16": 5.146009698364651e-06,
+                "17": 9.37688491831068e-06
+            },
+            "time": 87.71811771392822
+        },
+        {
+            "sample_num": "0",
+            "element_num": 2349,
+            "element_index": 14702,
+            "request": "{'prompt': '{}, that was developed in', 'subject': 'Major Maker', 'target_new': {'str': 'France'}}",
+            "correct": 455,
+            "incorrect": 340,
+            "invalid": 77,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.6214695481030503e-06,
+                "14": 2.951975602627499e-06,
+                "15": 3.762593451028806e-06,
+                "16": 5.221460469329031e-06,
+                "17": 9.612111171009019e-06
+            },
+            "time": 87.507981300354
+        },
+        {
+            "sample_num": "0",
+            "element_num": 2399,
+            "element_index": 1059,
+            "request": "{'prompt': '{}, developed by', 'subject': 'Windows NT 3.1', 'target_new': {'str': 'Adobe'}}",
+            "correct": 446,
+            "incorrect": 345,
+            "invalid": 81,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.641865421537659e-06,
+                "14": 2.975799816340441e-06,
+                "15": 3.7927291032247012e-06,
+                "16": 5.266221251076786e-06,
+                "17": 9.741555004438851e-06
+            },
+            "time": 86.44747805595398
+        },
+        {
+            "sample_num": "0",
+            "element_num": 2449,
+            "element_index": 2010,
+            "request": "{'prompt': '{} writes in', 'subject': 'Itzik Zohar', 'target_new': {'str': 'Italian'}}",
+            "correct": 455,
+            "incorrect": 336,
+            "invalid": 81,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.6631469154381193e-06,
+                "14": 3.0021792554180138e-06,
+                "15": 3.824638042715378e-06,
+                "16": 5.321320713846944e-06,
+                "17": 1.0020637091656681e-05
+            },
+            "time": 88.45729970932007
+        },
+        {
+            "sample_num": "0",
+            "element_num": 2499,
+            "element_index": 11807,
+            "request": "{'prompt': '{}, the', 'subject': 'Youri Djorkaeff', 'target_new': {'str': 'basketball'}}",
+            "correct": 468,
+            "incorrect": 299,
+            "invalid": 105,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.6944142064166954e-06,
+                "14": 3.040868477910408e-06,
+                "15": 3.8747748476453125e-06,
+                "16": 5.431525096355472e-06,
+                "17": 1.0529879546083976e-05
+            },
+            "time": 87.69049406051636
+        },
+        {
+            "sample_num": "0",
+            "element_num": 2549,
+            "element_index": 7302,
+            "request": "{'prompt': '{} originates from', 'subject': 'Hiroki Moriya', 'target_new': {'str': 'Philadelphia'}}",
+            "correct": 440,
+            "incorrect": 318,
+            "invalid": 114,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.7167566258867737e-06,
+                "14": 3.066686758756987e-06,
+                "15": 3.908123744622571e-06,
+                "16": 5.495845925906906e-06,
+                "17": 1.1024908417311963e-05
+            },
+            "time": 86.94854164123535
+        },
+        {
+            "sample_num": "0",
+            "element_num": 2599,
+            "element_index": 19546,
+            "request": "{'prompt': '{} specializes in', 'subject': 'Frederick Ashton', 'target_new': {'str': 'medicine'}}",
+            "correct": 429,
+            "incorrect": 345,
+            "invalid": 98,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.7529586077434942e-06,
+                "14": 3.113030288659502e-06,
+                "15": 3.969899353251094e-06,
+                "16": 5.664813670591684e-06,
+                "17": 1.1914207789232023e-05
+            },
+            "time": 86.80900001525879
+        },
+        {
+            "sample_num": "0",
+            "element_num": 2649,
+            "element_index": 8661,
+            "request": "{'prompt': '{}, the', 'subject': 'Marc Gasol', 'target_new': {'str': 'soccer'}}",
+            "correct": 474,
+            "incorrect": 283,
+            "invalid": 115,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.7811538529931568e-06,
+                "14": 3.1452532311959658e-06,
+                "15": 4.012899808003567e-06,
+                "16": 5.731337296310812e-06,
+                "17": 1.2493092071963474e-05
+            },
+            "time": 87.28876781463623
+        },
+        {
+            "sample_num": "0",
+            "element_num": 2699,
+            "element_index": 4607,
+            "request": "{'prompt': '{} worked in', 'subject': 'Peter Frederik Suhm', 'target_new': {'str': 'Prague'}}",
+            "correct": 490,
+            "incorrect": 273,
+            "invalid": 109,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.8117945021222113e-06,
+                "14": 3.1811598546482855e-06,
+                "15": 4.0598765735921916e-06,
+                "16": 5.8480713960307185e-06,
+                "17": 1.2975739991816226e-05
+            },
+            "time": 86.64671516418457
+        },
+        {
+            "sample_num": "0",
+            "element_num": 2749,
+            "element_index": 3266,
+            "request": "{'prompt': '{} is affiliated with', 'subject': 'Don Henley', 'target_new': {'str': 'FIFA'}}",
+            "correct": 503,
+            "incorrect": 236,
+            "invalid": 133,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.8526749247248517e-06,
+                "14": 3.2351176741940435e-06,
+                "15": 4.126273324800422e-06,
+                "16": 6.1108480622351635e-06,
+                "17": 1.4111848940956406e-05
+            },
+            "time": 87.14672994613647
+        },
+        {
+            "sample_num": "0",
+            "element_num": 2799,
+            "element_index": 20872,
+            "request": "{'prompt': '{} speaks', 'subject': 'Pu Songling', 'target_new': {'str': 'French'}}",
+            "correct": 581,
+            "incorrect": 210,
+            "invalid": 81,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.8962231226614676e-06,
+                "14": 3.284122385593946e-06,
+                "15": 4.208264726912603e-06,
+                "16": 6.4852733885345515e-06,
+                "17": 1.3687267710338347e-05
+            },
+            "time": 87.02589273452759
+        },
+        {
+            "sample_num": "0",
+            "element_num": 2849,
+            "element_index": 7051,
+            "request": "{'prompt': '{} originates from', 'subject': 'Accursius', 'target_new': {'str': 'Lyon'}}",
+            "correct": 611,
+            "incorrect": 182,
+            "invalid": 79,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.938443458333495e-06,
+                "14": 3.3482181152066914e-06,
+                "15": 4.576792434818344e-06,
+                "16": 6.703441613353789e-06,
+                "17": 1.3845580724591855e-05
+            },
+            "time": 88.07939195632935
+        },
+        {
+            "sample_num": "0",
+            "element_num": 2899,
+            "element_index": 7091,
+            "request": "{'prompt': \"{}'s life ended in\", 'subject': 'Charles Nodier', 'target_new': {'str': 'Hamburg'}}",
+            "correct": 584,
+            "incorrect": 196,
+            "invalid": 92,
+            "total": 872,
+            "distance_from_original": {
+                "13": 2.9801014989061514e-06,
+                "14": 3.4055046853609383e-06,
+                "15": 4.674061074183555e-06,
+                "16": 6.956126981094712e-06,
+                "17": 1.4979957086325157e-05
+            },
+            "time": 87.15821170806885
+        },
+        {
+            "sample_num": "0",
+            "element_num": 2949,
+            "element_index": 15827,
+            "request": "{'prompt': '{} is called after', 'subject': 'Saint-Pierre de Montmartre', 'target_new': {'str': 'Cuba'}}",
+            "correct": 539,
+            "incorrect": 202,
+            "invalid": 131,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.0250882900872966e-06,
+                "14": 3.4620700262166793e-06,
+                "15": 4.7904786697472446e-06,
+                "16": 7.075982466631103e-06,
+                "17": 1.642338429519441e-05
+            },
+            "time": 88.79531979560852
+        },
+        {
+            "sample_num": "0",
+            "element_num": 2999,
+            "element_index": 17815,
+            "request": "{'prompt': '{} passed away in', 'subject': 'Ernst Dohm', 'target_new': {'str': 'Brunswick'}}",
+            "correct": 507,
+            "incorrect": 285,
+            "invalid": 80,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.070776983804535e-06,
+                "14": 3.5345001379027963e-06,
+                "15": 4.836323114432162e-06,
+                "16": 7.366165391431423e-06,
+                "17": 1.7419481082470156e-05
+            },
+            "time": 86.59570336341858
+        },
+        {
+            "sample_num": "0",
+            "element_num": 3049,
+            "element_index": 389,
+            "request": "{'prompt': '{}, speaker of', 'subject': 'Leslie Caron', 'target_new': {'str': 'Dutch'}}",
+            "correct": 474,
+            "incorrect": 317,
+            "invalid": 81,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.099501327596954e-06,
+                "14": 3.572452442313079e-06,
+                "15": 4.834881110582501e-06,
+                "16": 7.507961072406033e-06,
+                "17": 1.6812027752166614e-05
+            },
+            "time": 86.97026205062866
+        },
+        {
+            "sample_num": "0",
+            "element_num": 3099,
+            "element_index": 10500,
+            "request": "{'prompt': 'The language of {} is', 'subject': 'NOW Lebanon', 'target_new': {'str': 'Latin'}}",
+            "correct": 455,
+            "incorrect": 317,
+            "invalid": 100,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.13126110995654e-06,
+                "14": 3.610353360272711e-06,
+                "15": 4.883662313659443e-06,
+                "16": 7.661029485461768e-06,
+                "17": 1.838143725763075e-05
+            },
+            "time": 87.72935342788696
+        },
+        {
+            "sample_num": "0",
+            "element_num": 3149,
+            "element_index": 4882,
+            "request": "{'prompt': '{} is to debut on', 'subject': 'Designing Women', 'target_new': {'str': 'Lifetime'}}",
+            "correct": 418,
+            "incorrect": 337,
+            "invalid": 117,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.170297986798687e-06,
+                "14": 3.6568972063832916e-06,
+                "15": 4.936972345603863e-06,
+                "16": 7.876176823629066e-06,
+                "17": 1.7683361875242554e-05
+            },
+            "time": 88.07501316070557
+        },
+        {
+            "sample_num": "0",
+            "element_num": 3199,
+            "element_index": 2670,
+            "request": "{'prompt': 'The occupation of {} is', 'subject': 'John Vivyan', 'target_new': {'str': 'politician'}}",
+            "correct": 363,
+            "incorrect": 356,
+            "invalid": 153,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.222007535441662e-06,
+                "14": 3.755318630283e-06,
+                "15": 5.0501198529673275e-06,
+                "16": 8.009184057300445e-06,
+                "17": 1.8704027752391994e-05
+            },
+            "time": 87.11797261238098
+        },
+        {
+            "sample_num": "0",
+            "element_num": 3249,
+            "element_index": 18974,
+            "request": "{'prompt': '{} can be found in', 'subject': 'Bern Theatre', 'target_new': {'str': 'Leeds'}}",
+            "correct": 374,
+            "incorrect": 349,
+            "invalid": 149,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.278608119217097e-06,
+                "14": 3.912406100425869e-06,
+                "15": 5.139470886206254e-06,
+                "16": 8.426521162618883e-06,
+                "17": 1.8394464859738946e-05
+            },
+            "time": 86.42857956886292
+        },
+        {
+            "sample_num": "0",
+            "element_num": 3299,
+            "element_index": 4279,
+            "request": "{'prompt': 'In {}, an official language is', 'subject': 'Hollola', 'target_new': {'str': 'French'}}",
+            "correct": 514,
+            "incorrect": 199,
+            "invalid": 159,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.3404780879209284e-06,
+                "14": 4.087827164767077e-06,
+                "15": 5.323341156326933e-06,
+                "16": 8.713505849300418e-06,
+                "17": 1.72330310306279e-05
+            },
+            "time": 86.89942359924316
+        },
+        {
+            "sample_num": "0",
+            "element_num": 3349,
+            "element_index": 1358,
+            "request": "{'prompt': '{} is created by', 'subject': 'Internet Explorer', 'target_new': {'str': 'Apple'}}",
+            "correct": 426,
+            "incorrect": 239,
+            "invalid": 207,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.3974081361520803e-06,
+                "14": 4.25240614276845e-06,
+                "15": 5.536746812140336e-06,
+                "16": 8.933982826420106e-06,
+                "17": 1.8688824638957158e-05
+            },
+            "time": 86.682457447052
+        },
+        {
+            "sample_num": "0",
+            "element_num": 3399,
+            "element_index": 8350,
+            "request": "{'prompt': 'The original language of {} is', 'subject': 'Iru Kodugal', 'target_new': {'str': 'English'}}",
+            "correct": 227,
+            "incorrect": 134,
+            "invalid": 511,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.4661254630918847e-06,
+                "14": 4.415638159116497e-06,
+                "15": 6.00741213929723e-06,
+                "16": 8.824100405036006e-06,
+                "17": 1.7107135136029683e-05
+            },
+            "time": 87.18560314178467
+        },
+        {
+            "sample_num": "0",
+            "element_num": 3449,
+            "element_index": 13338,
+            "request": "{'prompt': '{} can be found in', 'subject': 'Berlin International Film Festival', 'target_new': {'str': 'Swansea'}}",
+            "correct": 335,
+            "incorrect": 235,
+            "invalid": 302,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.5105133520119125e-06,
+                "14": 4.458643161342479e-06,
+                "15": 6.2292892835102975e-06,
+                "16": 8.873491424310487e-06,
+                "17": 1.846457780629862e-05
+            },
+            "time": 88.97408390045166
+        },
+        {
+            "sample_num": "0",
+            "element_num": 3499,
+            "element_index": 2870,
+            "request": "{'prompt': '{} originates from', 'subject': 'T. Claude Ryan', 'target_new': {'str': 'Nebraska'}}",
+            "correct": 272,
+            "incorrect": 209,
+            "invalid": 391,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.571484512576717e-06,
+                "14": 4.569650172925321e-06,
+                "15": 6.491472504421836e-06,
+                "16": 8.973498552222736e-06,
+                "17": 1.8967682990478352e-05
+            },
+            "time": 86.59283590316772
+        },
+        {
+            "sample_num": "0",
+            "element_num": 3549,
+            "element_index": 14495,
+            "request": "{'prompt': '{}, created by', 'subject': 'Shining Blade', 'target_new': {'str': 'Microsoft'}}",
+            "correct": 94,
+            "incorrect": 54,
+            "invalid": 724,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.6313260807219194e-06,
+                "14": 4.656964392779628e-06,
+                "15": 6.956107881705975e-06,
+                "16": 9.00088434718782e-06,
+                "17": 1.9629354937933385e-05
+            },
+            "time": 86.96536040306091
+        },
+        {
+            "sample_num": "0",
+            "element_num": 3599,
+            "element_index": 2712,
+            "request": "{'prompt': 'In {}, an official language is', 'subject': 'Colorado', 'target_new': {'str': 'Russian'}}",
+            "correct": 359,
+            "incorrect": 188,
+            "invalid": 325,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.771303909161361e-06,
+                "14": 5.871465873497073e-06,
+                "15": 8.054334102780558e-06,
+                "16": 9.060001502803061e-06,
+                "17": 2.0734316422021948e-05
+            },
+            "time": 87.33514428138733
+        },
+        {
+            "sample_num": "0",
+            "element_num": 3649,
+            "element_index": 5467,
+            "request": "{'prompt': '{} died at', 'subject': 'Oscar Charleston', 'target_new': {'str': 'London'}}",
+            "correct": 1,
+            "incorrect": 0,
+            "invalid": 871,
+            "total": 872,
+            "distance_from_original": {
+                "13": 3.936601842724485e-06,
+                "14": 7.84027452027658e-06,
+                "15": 8.085775334620848e-06,
+                "16": 9.721878086565994e-06,
+                "17": 2.226763535873033e-05
+            },
+            "time": 87.62211656570435
+        },
+        {
+            "sample_num": "0",
+            "element_num": 3699,
+            "element_index": 4586,
+            "request": "{'prompt': '{} has a citizenship from', 'subject': 'Lydie Polfer', 'target_new': {'str': 'Norway'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 4.055757926835213e-06,
+                "14": 8.100631930574309e-06,
+                "15": 8.52811263030162e-06,
+                "16": 1.1579755664570257e-05,
+                "17": 2.2790707589592785e-05
+            },
+            "time": 87.64659309387207
+        },
+        {
+            "sample_num": "0",
+            "element_num": 3749,
+            "element_index": 18509,
+            "request": "{'prompt': '{} is in', 'subject': 'Union Montreal', 'target_new': {'str': 'Manchester'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 4.179066763754236e-06,
+                "14": 8.430585694441106e-06,
+                "15": 8.67282687977422e-06,
+                "16": 1.278680792893283e-05,
+                "17": 2.412785943306517e-05
+            },
+            "time": 88.11093187332153
+        },
+        {
+            "sample_num": "0",
+            "element_num": 3799,
+            "element_index": 19894,
+            "request": "{'prompt': 'In {}, they understand', 'subject': 'International Commission on Illumination', 'target_new': {'str': 'Welsh'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 4.319214895076584e-06,
+                "14": 8.91874879016541e-06,
+                "15": 9.325769497081637e-06,
+                "16": 1.4059462955628987e-05,
+                "17": 2.3302507543121465e-05
+            },
+            "time": 87.75472617149353
+        },
+        {
+            "sample_num": "0",
+            "element_num": 3849,
+            "element_index": 2199,
+            "request": "{'prompt': '{} is located in', 'subject': 'Zlatibor District', 'target_new': {'str': 'Minnesota'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 4.526438260654686e-06,
+                "14": 1.0272682629874907e-05,
+                "15": 1.07438090708456e-05,
+                "16": 1.549483567941934e-05,
+                "17": 2.4130324163706973e-05
+            },
+            "time": 88.32700777053833
+        },
+        {
+            "sample_num": "0",
+            "element_num": 3899,
+            "element_index": 1452,
+            "request": "{'prompt': 'The profession of {} is', 'subject': 'Nicholas John Hannen', 'target_new': {'str': 'actor'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 4.785101737070363e-06,
+                "14": 1.177631929749623e-05,
+                "15": 1.4043715054867789e-05,
+                "16": 1.753600918164011e-05,
+                "17": 2.5141976948361844e-05
+            },
+            "time": 88.3671064376831
+        },
+        {
+            "sample_num": "0",
+            "element_num": 3949,
+            "element_index": 1910,
+            "request": "{'prompt': '{} found employment in', 'subject': 'Prince Franz de Paula of Liechtenstein', 'target_new': {'str': 'Paris'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 5.141649580764351e-06,
+                "14": 1.3472817045112606e-05,
+                "15": 1.64803732332075e-05,
+                "16": 1.7715117792249657e-05,
+                "17": 2.5718112738104537e-05
+            },
+            "time": 87.3844313621521
+        },
+        {
+            "sample_num": "0",
+            "element_num": 3999,
+            "element_index": 4411,
+            "request": "{'prompt': '{} is written in', 'subject': 'Histoire de Melody Nelson', 'target_new': {'str': 'Swedish'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 5.489208433573367e-06,
+                "14": 1.4011769962962717e-05,
+                "15": 2.0007453713333234e-05,
+                "16": 1.8271135559189133e-05,
+                "17": 2.6603713195072487e-05
+            },
+            "time": 88.63078737258911
+        },
+        {
+            "sample_num": "0",
+            "element_num": 4049,
+            "element_index": 20321,
+            "request": "{'prompt': 'The expertise of {} is', 'subject': 'Mikhail Leonidovich Gromov', 'target_new': {'str': 'mathematics'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 5.84097233513603e-06,
+                "14": 1.5474262909265235e-05,
+                "15": 2.1315281628631055e-05,
+                "16": 2.370004767726641e-05,
+                "17": 2.6617966796038672e-05
+            },
+            "time": 87.80360698699951
+        },
+        {
+            "sample_num": "0",
+            "element_num": 4099,
+            "element_index": 10387,
+            "request": "{'prompt': '{} is located in', 'subject': 'Herbert Mountains', 'target_new': {'str': 'Asia'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 6.1321557041083e-06,
+                "14": 1.6266863894998096e-05,
+                "15": 2.520723319321405e-05,
+                "16": 2.44307448156178e-05,
+                "17": 2.5832703613559715e-05
+            },
+            "time": 82.04205393791199
+        },
+        {
+            "sample_num": "0",
+            "element_num": 4149,
+            "element_index": 6042,
+            "request": "{'prompt': 'The profession of {} is', 'subject': 'Dov Ber of Mezeritch', 'target_new': {'str': 'actor'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 6.378133548423648e-06,
+                "14": 1.669372068135999e-05,
+                "15": 2.5621517124818638e-05,
+                "16": 2.880110878322739e-05,
+                "17": 2.6653724489733577e-05
+            },
+            "time": 81.25814127922058
+        },
+        {
+            "sample_num": "0",
+            "element_num": 4199,
+            "element_index": 9743,
+            "request": "{'prompt': 'The mother tongue of {} is', 'subject': 'Jonathan Littell', 'target_new': {'str': 'Greek'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 6.62631919112755e-06,
+                "14": 1.6923086150200106e-05,
+                "15": 2.5619890948291868e-05,
+                "16": 3.552510679583065e-05,
+                "17": 2.8194495826028287e-05
+            },
+            "time": 79.9948217868805
+        },
+        {
+            "sample_num": "0",
+            "element_num": 4249,
+            "element_index": 21753,
+            "request": "{'prompt': 'The expertise of {} is', 'subject': 'Campegius Vitringa', 'target_new': {'str': 'medicine'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 6.846959877293557e-06,
+                "14": 1.726797563605942e-05,
+                "15": 3.037389978999272e-05,
+                "16": 4.5589327783090994e-05,
+                "17": 3.3282125514233485e-05
+            },
+            "time": 88.12882542610168
+        },
+        {
+            "sample_num": "0",
+            "element_num": 4299,
+            "element_index": 18828,
+            "request": "{'prompt': 'The twin city of {} is', 'subject': 'Yerevan', 'target_new': {'str': 'Chicago'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 7.000074219831731e-06,
+                "14": 2.0575858798110858e-05,
+                "15": 4.84587399114389e-05,
+                "16": 8.511406485922635e-05,
+                "17": 5.991063517285511e-05
+            },
+            "time": 87.88655424118042
+        },
+        {
+            "sample_num": "0",
+            "element_num": 4349,
+            "element_index": 21249,
+            "request": "{'prompt': 'The headquarter of {} is in', 'subject': 'Klipfolio Dashboard', 'target_new': {'str': 'Chicago'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 7.122217084543081e-06,
+                "14": 2.4639610273879953e-05,
+                "15": 6.318082887446508e-05,
+                "16": 0.00012052668171236292,
+                "17": 8.229427476180717e-05
+            },
+            "time": 87.60444784164429
+        },
+        {
+            "sample_num": "0",
+            "element_num": 4399,
+            "element_index": 21230,
+            "request": "{'prompt': 'The twin city of {} is', 'subject': 'Ghent', 'target_new': {'str': 'Quebec'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 7.226668003568193e-06,
+                "14": 2.8000062229693867e-05,
+                "15": 7.415036088787019e-05,
+                "16": 0.0001439443149138242,
+                "17": 9.87922539934516e-05
+            },
+            "time": 87.87202000617981
+        },
+        {
+            "sample_num": "0",
+            "element_num": 4449,
+            "element_index": 13641,
+            "request": "{'prompt': '{} passed away at', 'subject': 'Thomas Edmondson', 'target_new': {'str': 'Paris'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 7.351149633905152e-06,
+                "14": 2.9979022656334564e-05,
+                "15": 9.377655806019902e-05,
+                "16": 0.0001411514967912808,
+                "17": 9.598318138159811e-05
+            },
+            "time": 87.82266807556152
+        },
+        {
+            "sample_num": "0",
+            "element_num": 4499,
+            "element_index": 13473,
+            "request": "{'prompt': 'The official religion of {} is', 'subject': 'Muhammad Qasim Nanotvi', 'target_new': {'str': 'Christianity'}}",
+            "correct": 0,
+            "incorrect": 0,
+            "invalid": 872,
+            "total": 872,
+            "distance_from_original": {
+                "13": 7.469333468179684e-06,
+                "14": 3.218606434529647e-05,
+                "15": 9.881260484689847e-05,
+                "16": 0.00014862425450701267,
+                "17": 0.00010181065590586513
+            },
+            "time": 88.13026428222656
+        }
+    ]
+}
