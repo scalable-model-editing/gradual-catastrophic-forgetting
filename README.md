@@ -1,90 +1,39 @@
-# MEMIT: Mass-Editing Memory in a Transformer
+# Gradual Catastrophic Forgetting
 
-Editing thousands of facts into a transformer memory at once.
-
-<!-- [![Colab MEMIT Demo](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kmeng01/memit/blob/main/notebooks/memit.ipynb) -->
-
-## Table of Contents
-
-- [Installation](#installation)
-- [MEMIT Algorithm Demo](#memit-algorithm-demo)
-- [Running the Full Evaluation Suite](#running-the-full-evaluation-suite)
-- [Generating Scaling Curves](#generating-scaling-curves)
-- [How to Cite](#how-to-cite)
+Studying the effects of model editing at scale.
 
 ## Installation
-
-We recommend `conda` for managing Python, CUDA, and PyTorch; `pip` is for everything else. To get started, simply install `conda` and run:
+We work off of the [MEMIT](https://github.com/kmeng01/memit) codebase, so we'll reference the same installation procedures here: 
+"We recommend `conda` for managing Python, CUDA, and PyTorch; `pip` is for everything else. To get started, simply install `conda` and run:
 ```bash
 CONDA_HOME=$CONDA_HOME ./scripts/setup_conda.sh
 ```
 
-`$CONDA_HOME` should be the path to your `conda` installation, e.g., `~/miniconda3`.
+`$CONDA_HOME` should be the path to your `conda` installation, e.g., `~/miniconda3`."
 
-## MEMIT Algorithm Demo
-
-[`notebooks/memit.ipynb`](notebooks/memit.ipynb) demonstrates MEMIT. The API is simple; simply specify a *requested rewrite* of the following form:
-
+## Running the experiments
+Two main scripts are used to run the evaluation suite. The first being model-editing with the editing-proficiency and downstream evaluation tasks. This can be done with:
 ```python
-request = [
-    {
-        "prompt": "{} plays the sport of",
-        "subject": "LeBron James",
-        "target_new": {
-            "str": "football"
-        }
-    },
-    {
-        "prompt": "{} plays the sport of",
-        "subject": "Michael Jordan",
-        "target_new": {
-            "str": "baseball"
-        }
-    },
-]
+python experiments/evaluate_glue.py \
+    --sample_num=0 \
+    --alg_name=ROME \
+    --model_name=gpt2-xl \
+    --hparams_fname=gpt2-xl.json \
+    --ds_name=cf \
+    --glue_eval_interval=5 \
+    --model_save_interval=20 \
+    --model_save_location=/path/to/storage \
 ```
-
-Other similar example(s) are included in the notebook.
-
-## Running the Full Evaluation Suite
-
-[`experiments/evaluate.py`](experiments/evaluate.py) can be used to evaluate any method in [`baselines/`](baselines/).
-
-For example:
+To run evaluations on the history, i.e previous edits made to the model:
+```python
+python experiments/evaluate_history.py \
+    --sample_num=0 \
+    --alg_name=ROME \
+    --model_name=gpt2-xl \
+    --hparams_fname=gpt2-xl.json \
+    --ds_name=cf \
+    --model_save_interval=20 \
+    --continue_from_run=run_n
+    --model_save_location=/path/to/storage \
 ```
-python3 -m experiments.evaluate \
-    --alg_name=MEMIT \
-    --model_name=EleutherAI/gpt-j-6B \
-    --hparams_fname=EleutherAI_gpt-j-6B.json \
-    --num_edits=10000 \
-    --use_cache
-```
-Results from each run are stored at `results/<method_name>/run_<run_id>` in a specific format:
-```bash
-results/
-|__ MEMIT/
-    |__ run_<run_id>/
-        |__ params.json
-        |__ case_0.json
-        |__ case_1.json
-        |__ ...
-        |__ case_10000.json
-```
-
-To summarize the results, you can use [`experiments/summarize.py`](experiments/summarize.py):
-```bash
-python3 -m experiments.summarize --dir_name=MEMIT --runs=run_<run1>,run_<run2>
-```
-
-Running `python3 -m experiments.evaluate -h` or `python3 -m experiments.summarize -h` provides details about command-line flags.
-
-## How to Cite
-
-```bibtex
-@article{meng2022memit,
-  title={Mass Editing Memory in a Transformer},
-  author={Kevin Meng and Sen Sharma, Arnab and Alex Andonian and Yonatan Belinkov and David Bau},
-  journal={arXiv preprint arXiv:2210.07229},
-  year={2022}
-}
-```
+Other valid arguments for ```sample_num``` include 0-9. Other algorithms, ```alg_name```, include "ROME", "MEND", and "FT" (Finetuning). The list of compatible models for ```model_name``` include "gpt2-medium", "gpt2-large", "gpt2-xl", and "EleutherAI/gpt-j-6B". For any choice of model, update the ```hparams_fname``` to the json file found in ```hparams/alg_name/```. List of possible datasets for ```ds_name``` include "mcf" (MultiCounterFact), "cf" (CounterFact), "zsre" (zsRE). The ```glue_eval_interval``` specifies the interval of edits made for evaluation on downstream tasks. ```model_save_interval``` is the number of edits made between model saves. The argument for ```model_save_location``` should be the path to the directory where model save should happen. Be sure to include file paths to <ins>unique</ins> directories for each run (eg. ```/data/edited_models/alg_name/run_n```) to avoid conflicts with differing runs. ```continue_from_run``` is a required argument for history evaluations; for a given run, the value is found by ```results/alg_name/run_n``` once experiments have been run using evaluate_glue. Other optional arguments can be found in either files. By default, the experiments run with ```ROME``` on ```gpt2-xl``` with sample ```0```.
