@@ -36,11 +36,21 @@ python experiments/evaluate_history.py \
     --continue_from_run=run_n
     --model_save_location=/path/to/storage \
 ```
-**Before either script is run**, be sure to update ```sys.path.append('/path/to/gradual-catastrophic-forgetting')``` to the path of the parent directory. 
+**Before any experiment is run**, be sure to update ```sys.path.append('/path/to/gradual-catastrophic-forgetting')``` to the path of the parent directory. 
 
-By default, either experiment performs 1200 edits. To make a change to this, navigate to the ```if e >= 1200: break```. Other valid arguments for ```sample_num``` include 0-9. Other algorithms, ```alg_name```, include "MEMIT", "MEND", and "FT" (Finetuning). The list of compatible models for ```model_name``` include "gpt2-medium", "gpt2-large", "gpt2-xl", and "EleutherAI/gpt-j-6B". For any choice of model, update the ```hparams_fname``` to the json file found in ```hparams/alg_name/```. List of possible datasets for ```ds_name``` include "mcf" (MultiCounterFact), "cf" (CounterFact), "zsre" (zsRE). The ```glue_eval_interval``` specifies the interval of edits made for evaluation on downstream tasks. ```model_save_interval``` is the number of edits made between model saves. The argument for ```model_save_location``` should be the path to the directory where model save should happen. Be sure to include file paths to <ins>unique</ins> directories for each run (eg. ```/data/edited_models/alg_name/run_n```) to avoid conflicts with differing runs. ```continue_from_run``` is a required argument for history evaluations; for a given run, the value is found by ```results/alg_name/run_n``` once experiments have been run using evaluate_glue. Other optional arguments can be found in either files. By default, the experiments run with ```ROME``` on ```gpt2-xl``` with sample ```0```.
+By default, either experiment performs 1200 edits. To make a change to this, navigate to the ```if e >= 1200: break```. Other valid arguments:
+- ```sample_num```:  0-9
+- ```alg_name```: "ROME", "MEMIT", "MEND", and "FT" (Finetuning)
+- ```model_name```: "gpt2-medium", "gpt2-large", "gpt2-xl", and "EleutherAI/gpt-j-6B". For any choice of model, update the ```hparams_fname``` to the json file found in ```hparams/alg_name/```
+- ```ds_name```: "mcf" (MultiCounterFact), "cf" (CounterFact), "zsre" (zsRE)
+- ```glue_eval_interval```: interval of edits made between each evaluation on downstream tasks
+- ```model_save_interval```: interval of edits made between each model save
+- ```model_save_location```: path to the directory where model save should happen. Be sure to include file paths to <ins>unique</ins> directories for each run (eg. ```/data/edited_models/alg_name/run_n```) to avoid conflicts with differing runs
+- ```continue_from_run```: required argument for history evaluations. For a given run, the value is found by ```results/alg_name/run_n``` once experiments have been run using evaluate_glue.
 
-To continue onward from a checkpoint or if a run is terminated before completion, use the ```experiments/evaluate_glue_restart.py``` file. To choose a checkpoint, set the ```restart_index``` to the desired model. For example, the model stored in ```/edits_100``` would have a ```restart_index``` of ```100```. If this is not provided, the script will find the last model. Again, ```continue_from_run``` is required to store the remaining results.
+Other optional arguments can be found in either files. By default, the experiments run with ```ROME``` on ```gpt2-xl``` with sample ```0```.
 
-To visualize the plots in the paper, navigate to ```downstream_eval/current_edit_scores.py```,```downstream_eval/glue_performance.py```, and ```downstream_eval/fact_forgetting.py```. Update the ```algo```, ```run```, and ```sample_num``` to generate the plots. If the experiment performs a different number of edits, be sure to change the ```xlim``` from 1200.
+To continue onward from a checkpoint or if a run is terminated before completion, use the ```experiments/evaluate_glue_restart.py``` file. To choose a checkpoint, set the ```restart_index``` to the desired model. For example, the model stored in ```/edits_100``` would have a ```restart_index``` of ```100```. If this is not provided, the script will find the last model. Again, ```continue_from_run``` is required to store the future results.
+
+To visualize the plots in the paper, navigate to ```downstream_eval/current_edit_scores.py```,```downstream_eval/glue_performance.py```, and ```downstream_eval/fact_forgetting.py```. Update the ```algo```, ```run```, and ```sample_num``` to the desired run to generate the plots. If the experiment performs a different number of edits, be sure to change the ```xlim``` from 1200.
  
