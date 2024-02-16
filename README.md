@@ -46,7 +46,7 @@ By default, either experiment performs 1200 edits. To make a change to this, nav
 - ```glue_eval_interval```: interval of edits made between each evaluation on downstream tasks
 - ```model_save_interval```: interval of edits made between each model save
 - ```model_save_location```: path to the directory where model save should happen. Be sure to include file paths to <ins>unique</ins> directories for each run (eg. ```/data/edited_models/alg_name/run_n```) to avoid conflicts with differing runs
-- ```continue_from_run```: required argument for history evaluations. For a given run, the value is found by ```results/alg_name/run_n``` once experiments have been run using evaluate_glue.
+- ```continue_from_run```: required argument for history evaluations. It's value would be, for example, ```run_n``` for a desried run whose results can be found at ```results/alg_name/run_n``` once experiments have been run using evaluate_glue.
 
 Other optional arguments can be found in either files. By default, the experiments run with ```ROME``` on ```gpt2-xl``` with sample ```0```.
 
